@@ -1,71 +1,450 @@
-<!doctype html>
+<!DOCTYPE html>
+<!-- 	FACTORY WEB DESIGN
+
+		www.factorywebdesign.com.br
+		www.facebook.com/factorywebdesign.br
+		contato@factorywebdesign.com.br
+
+		Site desenvolvido por Factory Web Design.
+		Todos direitos reservados a Factory Web Design.
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Home by factorywebdesign</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<title>Factory Web Design</title>
+	<meta name="description" content="Factory Web Design">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/factory.css">
+	<link rel="shortcut icon" href="imgs/icon.bmp">
+	<!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Home</h1>
-        <p></p>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+</head>
+<body>
+	<header>
+	<!-- Menu -->
+		<div class="menu-feature">
+			<div class= "menu-feature navbar navbar-fixed-top menushadow"> <!--  -->
+				<div class="container">
+					<a href ="#" class="navlogo" ><img src="imgs/factory_logo.png" /></a>
+					<!-- Contato Rapido 
+					<div class="fix-fast-contact">
+							<ul>
+								<li><a href="http://fb.com/factorywebdesign.br"><img src="imgs//fast_fb.jpg"></a></li>
+								<li><img src="imgs/fast_tel.jpg"></li>
+								<li id="telefone">(27) 9 99626419</li>
+							</ul>
+					</div>-->
+					<a href ="#" class="navbar-brand navtypo">
+						<h1>FACTORY</h1>
+					</a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active navbar-link"><a href="index.html">INÍCIO</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVIÇOS<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<a class"dropdown-before"></a>
+									<li class="navbar-link"><a href="#websites">Web Sites</a></li>
+									<li><a href="servicos.html#hospedagem">Hospedagem</a></li>
+									<li><a href="servicos.html#manutencao">Manutenção</a></li>
+									<li><a href="servicos.html#identidade-visual">Identidade Visual</a></li>
+									<li><a href="servicos.html#animacoes">Animações 2D</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#sobre-nos">SOBRE NÓS</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="#contato">CONTATO</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+<!-- Slide bar -->
 
-        <p class="view"><a href="https://github.com/factorywebdesign/home">View the Project on GitHub <small>factorywebdesign/home</small></a></p>
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+			</ol>
+			<div class="carousel-inner slideI">
+				<div class="item active" style="background-color:#162677;">
+					<div class="carousel-caption">
+						<h1>Exemplo H1 - Slide 1</h1>
+						<p>Apenas um texto genérico!!</p>
+						<p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
+					</div>
+				</div>
+				<div class="item" style="background-color:yellow;">
+					<div class="carousel-caption">
+						<h1>Exemplo H1 - Slide 2</h1>
+						<p>Apenas um texto genérico!!</p>
+						<p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
+					</div>
+				</div>
+				<div class="item" style="background-color:#00aeef;">
+					<div class="carousel-caption">
+						<h1>Exemplo H1 - Slide 3</h1>
+						<p>Apenas um texto genérico!!</p>
+						<p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
+					</div>
+				</div>
+				<div class="item" style="background-color:green;">
+					<div class="carousel-caption">
+						<h1>Exemplo H1 - Slide 4</h1>
+						<p>Apenas um texto genérico!!</p>
+						<p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
+					</div>
+				</div>
+			</div>
+			<!-- Controles -->
+      		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    	<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</header>
 
+	<section>
+		<div class="container-fluid feature">
+			<div class="row">
+				<div class="col-md-5 orcamento-style">
+					<h1>O melhor da <span style="background-color:#141414;color:white;">WEB</span> ao seu alcance.</h1>
+					<h2>Faça seu orçamento:</h2>
+				</div>
+				<div class="col-md-2">
+					<h1 href="#myModal" data-toggle="modal">
+						<button class="btn btn-large button-orc">ORÇAMENTO</button>
+					</h1>
+				</div>
+				<div class="col-md-5"></div>
+			</div>
+		</div>
+	</section>
+	<hr style="padding-bottom:40px;margin-top:-40px;">
+	<section id="servicos">
+		<div class="container-fluid feature">
+			<div class="row">
+				<!-- WEB SITE -->
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
+					<img src="imgs/servicos/flat_rwd.png" alt="">
+					<!--<h1 style="left:38.25%;">W</h1>-->
+					<a href="servicos.html#website"><h2>WEB SITE</h2></a>
+					<ul class="serv-txt">
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Responsivo</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Desktop</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Otimização SEO</li>
+					</ul>
+				</div>
+				<!-- HOSPEDAGEM -->
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
+					<img src="imgs/servicos/flat_host.png" alt="">
+					<!--<h1 style="left:41.25%;">H</h1>-->
+					<a href="servicos.html#hospedagem"><h2>HOSPEDAGEM</h2></a>
+					<ul class="serv-txt">
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Hospedagem de Sites</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Hospedagem de APPs</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Planos</li>
+					</ul>
+				</div>
+				<!-- SUPORTE -->
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
+					<img src="imgs/servicos/flat_suporte.png" alt="">
+					<!--<h1  style="left:41.25%;;">S</h1>-->
+					<a href="servicos.html#suporte"><h2>SUPORTE</h2></a>
+					<ul class="serv-txt">
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Manutenção</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Atualização de Tecnologias</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Atualização de Conteúdo</li>
+					</ul>
+				</div>
+				<!-- IDENTIDADE VISUAL -->
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
+					<img src="imgs/servicos/flat_id.png" alt="">
+					<!--<h1 style="left:40.25%;">ID</h1>-->
+					<a href="servicos.html#identidade"><h2>IDENTIDADE VISUAL</h2></a>
+					<ul class="serv-txt">
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Criação de Logotipo</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Reestilização de Logotipo</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Marketing Email</li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
+					<img src="imgs/servicos/flat_coffee.png" alt="">
+					<!--<h1 style="left:40.25%;">A</h1>-->
+					<a href="servicos.html#animacao"><h2>ANIMAÇÃO 2D</h2></a>
+					<ul class="serv-txt">
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Apresentações</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Propagandas</li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
+					<img src="imgs/servicos/flat_marketing.png" alt="">
+					<!--<h1 style="left:40.25%;">M</h1>-->
+					<a href="servicos.html#hospedagem"><h2>MARKETING</h2></a>
+					<ul class="serv-txt">
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Conteúdo Informativo</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Slogan</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Mídia Social</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<!-- Orçamento Modal -->
+	<section>
+		<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content orcamento-modal-body">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h3 id="myModalLabel">ORÇAMENTO</h3>
+					</div>
+					<div class="modal-body"> <!-- ORCAMENTO BODY -->
+						<form role="form">
+							<div class="form-group">
+								<label for="nome">Nome</label>
+								<input type="text" class="form-control" id="nome" placeholder="Digite aqui seu nome...">
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Digite aqui seu email...">
+							</div>
+							<div class="form-group">
+								<label for="tipoempresa">Tipo de negócio</label>
+								<input type="text" class="form-control" id="tipoempresa" placeholder="Digite aqui para que tipo de negócio deseja o(s) serviço(s)...">
+							</div>
+							<h4>SERVIÇOS</h4>
+							<fieldset class="form-group" id="website"> <!-- WEB SITE -->
+								<legend>Deseja criar um <a href="servicos.html#website">Web Site</a>:</legend>
+                                <input type="radio" name="nWebSite" id="webDesktop"><label for="webDesktop">&nbsp;Desktop&nbsp;&nbsp;</label><br>
+                                <input type="radio" name="nWebSite" id="webRwd" checked=""><label for="webRwd">&nbsp;Responsivo (Todos dispositivos)&nbsp;&nbsp;</label><br>
+                                <input type="radio" name="nWebSite" id="webDesktop"><label for="webNone">&nbsp;Nenhum&nbsp;&nbsp;</label><br>
 
-        <ul>
-          <li><a href="https://github.com/factorywebdesign/home/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/factorywebdesign/home/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/factorywebdesign/home">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+                                <legend>Você possue conteúdo informativo para o site?</legend>
+                       			<input type="radio" name="nWebInfo" id="webinfoS"><label for="webinfoN">&nbsp;Sim&nbsp;&nbsp;</label>
+                                <input type="radio" name="nWebInfo" id="webinfoN" checked=""><label for="webinfoN">&nbsp;Não</label>
+                            </fieldset>
+							<fieldset class="form-group" id="hospedagem"> <!-- HOSPEDAGEM -->
+								<legend>Deseja <a href="servicos.html#hospedagem">hospedar</a> seu site?</legend>
+                                <input type="radio" name="nHost" id="hostS"><label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                <input type="radio" name="nHost" id="hostN" checked=""><label for="webRwd">&nbsp;Não</label>
+                            </fieldset>
+							<fieldset class="form-group" id="manutencao"> <!-- MANUTENÇÃO -->
+								<legend>Deseja <a href="servicos.html#manutencao">manutenção</a> em seu site?</legend>
+                                <input type="radio" name="nMan" id="manS"><label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                <input type="radio" name="nMan" id="manN" checked=""><label for="webRwd">&nbsp;Não</label>
+                            </fieldset>
+							<fieldset class="form-group" id="identidade"> <!-- IDENTIDADE-->
+								<legend>Deseja criar uma <a href="servicos.html#identidade">Identidade Visual</a>?</legend>
+                                <input type="radio" name="nIdentS" id="identS"><label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                <input type="radio" name="nIdentN" id="identN" checked=""><label for="webRwd">&nbsp;Não</label>
+                            </fieldset>
+							<fieldset class="form-group" id="animacoes"> <!-- ANIMAÇÕES -->
+								<legend>Deseja a criação de <a href="servicos.html#animacoes">Animações em 2D</a>?</legend>
+                                <input type="radio" name="nAnime" id="animeS"><label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                <input type="radio" name="nAnime" id="animeN" checked=""><label for="webRwd">&nbsp;Não</label>
+                            </fieldset>
+                     	    <fieldset class="form-group" id="comentario">
+                     	    	<legend>Comentário:</legend>
+                                <textarea name="nComentario" id="idComent" cols="78" rows="5" placeholder="Digite aqui seu comentário"></textarea>
+	                        </fieldset>
+						</form>
+					</div>
+					<div class="modal-footer"> <!-- ORCAMENTO FOOTER -->
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+						<button type="submit" name="nEnviar" id="idEnviar" class="btn btn-primary">Enviar Orçamento</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="" class="container-fluid feature sobre-nos">
+		<div class="row">
+			<h1>SOBRE NÓS</h1>
+			<div class="">
+				<div class="col-lg-12">
+					<h2>Pellentesque habitant morbi tristique senectus et netus <br>et malesuada fames ac turpis egestas.</h2>
+					<img class="" src="imgs/interface_missao_1000px.png" alt="">
+					<br><br>
+				</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+				<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-3"></div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<h2>Qualidade</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<h2>Melhor Preço</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<h2>Prazo Estrito</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+				</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+				<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-3"></div>
+			</div>
+		</div>
+	</section>
+	<section id="contato" class="container-fluid feature contact">
+		<div class="row">
+			<div class="col-xs-0 col-sm-0 col-md-2"></div>
+			<div class="col-sm-7 col-md-5">
+				<h1>CONTATO</h1>
+				<form class="myfirstform" role="form" novalidate>
+					<div class="form-group">
+			        	<label class="control-label">Nome</label>
+						<div class="controls">
+					    	<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<input type="text" class="form-control" name="name" placeholder="Nome">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+				        <label class="control-label">Email</label>
+						<div class="controls">
+						   		<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+									<input type="text" class="form-control" id="email" name="email" placeholder="Email">
+								</div>
+							</div>	
+						</div>
+					
+						<div class="form-group ">
+				      		  <label class="control-label">Assunto</label>
+							<div class="controls">
+						    	<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+									<input type="text" class="form-control" id="lname" name="website" placeholder="Assunto">
+								</div>
+							</div>
+						</div>
+						<div class="form-group ">
+				        	<label class="control-label">Mensagem</label>
+							<div class="controls">
+					 			<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+									<select name="cate" class="form-control selectpicker show-tick" style="display: none;"><option>Plugin Development</option>
+								</div>
+							</div>
+						</div>
+						<div class="form-group ">
+				        	<label class="control-label">Message</label>
+							<div class="controls">
+						    	<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+									<textarea name="msg" class="form-control " rows="4" cols="78" placeholder="Digite sua mensagem aqui..."></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="controls">
+							<button type="submit" id="mybtn" class="btn button-orc button-contact"><strong class="txt-right">Envie sua mensagem</strong></button>
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-5 col-md-3">
+				<div class="contact-header">
+					<img src="imgs/contato/pointer.png" alt="" class="contact-pointer">
+					<div>
+						<br>
+						<h5>SERRA</h5>
+						<h4>(27) 9 99626419</h4>
+					</div>
+					<div>
+						<h5>VITÓRIA</h5>
+						<h4>(27) 9 97537331</h4>					
+					</div>
+				</div>
+				<ul>
+					<li class="contact-anchor"><a  href="www.facebook.com/factorywebdesign.br"><img src="imgs/contato/facebook.png" alt="Facebook" class="contact-icon">&nbsp;&nbsp;&nbsp;&nbsp;facebook.com/factorywebdesign.oficial</a></li>
+					<li><img src="imgs/contato/email.png" alt="Email" class="contact-icon">&nbsp;&nbsp;&nbsp;&nbsp;contato@factorywebdesign.com.br</li>
+					<li><img src="imgs/contato/hangout.png" alt="Hangout" class="contact-icon">&nbsp;&nbsp;&nbsp;&nbsp;factorywebdesign.oficial@gmail.com</li>
+					<li><img src="imgs/contato/skype.png" alt="Skype" class="contact-icon">&nbsp;&nbsp;&nbsp;&nbsp;factorywebdesign</li>
+				</ul>
+			</div>
+			<div class="col-xs-0 col-sm-0 col-md-2"></div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid footer-feature">
+			<div class="row">
+				<div class="col-xs-0 col-sm-0 col-md-2"></div>
+				<div class="col-xs-5 col-sm-2 col-md-1 footer-fcols">
+					<ul>
+						<li><h2>Home</h2></li>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="index.html#sobrenos">Sobre Nós</a></li>
+						<li><a href="index.html#contato">Contato</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-sm-2 col-md-1 footer-fcols">
+					<ul>
+						<li><h2>Serviços</h2></li>
+						<li><a href="servicos.html#websites">Web Site</a></li>
+						<li><a href="servicos.html#hostman">Manutenção</a></li>
+						<li><a href="servicos.html#hostman">Hospedagem</a></li>
+						<li><a href="servicos.html#identidade">Identidade Visual</a></li>
+						<li><a href="servicos.html#animacoes">Animações 2D</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-5 col-md-4 footer-fcols">
+					<ul>
+						<h2>FAQ</h2>
+						<li><a href="">Como funciona o processo de desenvolvimento da Factory?</a></li>
+						<li><a href="">Porque criar um site?</a></li>
+						<li><a href="">O que é responsividade e suas vantagens?</a></li>
+						<li><a href="">Porque hospedar?</a></li>
+						<li><a href="">Quais serviços são realizados na manutenção?</a></li>
+						<li><a href="">O que é uma identidade visual e como irá ajudar a minha empresa?</a></li>
+						<li><a href="">O que é Animação 2D?</a></li>
+					</ul>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2 footer-ref footer-hr">
+					<img src="imgs/footer_logo2.png" alt="" class="footer-logo">
+					<p>Todos direitos reservados a <br><a href="www.factorywebdesign.com.br">Factory Web Design</a>.</p>
+				</div>
+				<div class="col-xs-0 col-sm-0 col-md-2"></div>
+			</div>
+		</div>
+		</div>
+		<!-- FOOTER CLIENTE 
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 txt-right">
+					<h4>Todos direitos reservados a <em>Empresa Cliente</em>. 2014.</h4>
+				</div>
+				<div class="col-lg-4">
+					<div class="factory-reference">
+						<img src="imgs/factory_logo.png" alt="">
+					</div>
+					<div class="factory-reference txt">
+						<h5>Desenvolvido por:<br><a href="www.factorywebdesign.com.br">Factory Web Design</a>.</h5>
+					</div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/factorywebdesign">factorywebdesign</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+				</div>
+		</div>
+		-->
+	</footer>
 </html>
