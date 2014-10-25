@@ -1,0 +1,1125 @@
+@charset "UTF-8";
+@import url(factory-fonts.css);
+/*	 	FACTORY WEB DESIGN
+
+		www.factorywebdesign.com.br
+		www.facebook.com/factorywebdesign.br
+		contato@factorywebdesign.com.br
+
+		Site desenvolvido por Factory Web Design.
+		Todos direitos reservados a ____________.
+
+		Para manutenção entre em contato conosco.
+*/
+
+/* =============================== SHAPES ============================= */
+
+.quadrado-fluid{
+	position: relative;
+	width: 25%;
+	padding-bottom: 25%;
+	overflow: hidden;
+	background: #4679BD;
+}
+
+.circulo-fluid{
+    width: 25%;
+    height:0;
+    padding-bottom: 25%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #4679BD;
+}
+
+.circunferencia-fluid{
+    width: 25%;
+    height:0;
+    padding-bottom: 25%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 4px #4679BD;
+}
+
+.triangulo-down-fluid{
+	width: 25%;
+	height: 0;
+	padding-left: 25%;
+	padding-top: 25%;
+	overflow: hidden;
+}
+
+.triangulo-down-fluid div{
+	width: 0; 
+	height: 0;
+	margin-left:-500px;
+	margin-top:-500px;
+	border-left: 500px solid transparent;
+	border-right: 500px solid transparent;
+	border-top: 500px solid #4679BD;
+}
+
+/* ================================= MENU ================================= */
+
+.menu-feature{
+	display: block;
+	border-top: 4px solid #00aeef;
+	background-color: #141414;
+}
+
+/* LOGOTIPO */
+.navlogo{
+	display: block;
+	height: 70%;
+	top: -20px
+	left: 0;
+	position: absolute;
+}
+
+.navlogo img{
+	width: 51%;
+}
+
+/* TIPOGRAFIA LOGO */
+
+.navtypo{
+	display: block;
+	margin-top: -2px;
+}
+
+.navtypo h1, .navtypo h2, .navtypo h3{
+	text-align: center;
+	margin: 0 0 0 40px;
+}
+
+.navtypo h1{
+	color: #00aeef;
+	font-size: 20pt;
+	font-family: "txt-factory", sans-serif;
+}
+
+.navtypo h2{
+	color: white;
+	font-size: 25pt;
+	font-family: "txt-web", sans-serif;	
+}
+
+.navtypo h2 span{
+	padding: 0 13px;
+}
+
+.navtypo h3{
+	color: darkgray;
+	font-size: 23pt;
+	font-family: "txt-all", sans-serif;
+	margin-top: -29px;
+}
+
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.navbar-wrapper > .container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+	width: auto;
+}
+
+.right-inner-addon {
+	position: relative;
+	top: 8px;
+	right: 1px;
+	height: 3px;
+}
+
+.right-inner-addon input {
+	padding-right: 30px;
+}
+
+.right-inner-addon i {
+	position: absolute;
+	right: 0px;
+	padding: 10px 12px;
+	pointer-events: none;
+}
+
+/* SLIDESHOW */
+
+.carousel{
+	margin: 51px auto 94px 0;
+}
+
+.carousel-caption{
+	z-index: 10;
+}
+
+.carousel .item{
+	height: 500px; /*tamanho do slideshow*/
+}
+
+.item, .carousel-control{
+	height: 500px;
+}
+
+.caption-top p{
+}
+
+.caption-top h1{
+	margin-left: -20px;
+}
+
+#myCarouse-shadow{
+	display: block;
+	margin-top: -95px;
+	width: 100%;
+	opacity: 1;
+}
+
+/* ================================ FAST CONTACT ================================= */
+
+
+/* STYLE:: CONTATO RAPIDO */
+.fix-fast-contact{
+	display: block;
+	position: absolute;
+	margin-top: -570px;
+	opacity: 0;
+}
+
+.fix-fast-contact ul{
+	padding: 0 0 0 75%;
+}
+
+.fix-fast-contact ul, .fix-fast-contact li{
+	display: inline;
+	margin: 0;
+	list-style-type: none;
+}
+
+.fix-fast-contact li{
+	margin: 0 -1%;
+}
+
+.fix-fast-contact li#telefone{
+	font-family: "txt-all", sans-serif;
+	font-size: 0.8em;
+	color: white;
+	padding-left: 8px;
+	vertical-align: middle;
+}
+
+/* MENU SHADOW */
+
+.menushadow{
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.45);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.45);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.45);
+}
+
+/* ================================ <BODY> STYLES ================================ */
+
+.feature{
+	margin: 0 0 40px 0;
+}
+
+.feature p, h2{
+	padding-bottom: 20px;
+}
+
+/* Float-Align Classes */
+
+.f-left{
+	float: left;
+}
+
+.f-right{
+	float: right;
+}
+
+.txt-left{
+	text-align: left;
+}
+
+.txt-right{
+	text-align: right;
+}
+
+.txt-just{
+	text-align: justify;
+}
+
+.space-tot{
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+/* REPOSICIONAMENTO SERVICOS */
+
+#servicos{
+
+}
+
+.serv_circ{
+  border-radius: 50%;
+  background-color: #00aeef;
+  width: 143px;
+  height: 143px;
+  z-index: 3;
+}
+
+.serv-feat{
+	margin-top: -30px;
+}
+
+.serv-feat h1{
+	color: white;
+	font-size: 5.8em;
+	font-family: "txt-caviar";
+	position: absolute;
+	top: 9px;
+}
+
+.serv-feat1 h1{
+	left: 130px;
+}
+
+.serv-feat h2{
+	font-family: Verdana;
+	font-size: 1.5em;
+	color: #00aeef;
+	text-align: center;
+}
+
+.serv-feat p{
+	color: #141414;
+	text-align: justify;
+}
+
+.serv-feat img{
+}
+
+.serv-feat ul{
+	display: block;
+	margin: -20px 0 0 30px;
+}
+
+.serv-feat li{
+	font-family:;
+	font-size: .9em;
+	font-weight: bold;
+	text-align: justify;
+	list-style: none;
+	margin-left: -20px;
+}
+
+.serv-txt{
+}
+
+.serv-exemp{
+	background-color: #f2f2f2;
+	color: #141414;
+}
+
+.serv-exemp h1, .serv-exemp h2{
+	color: #f2f2f2;
+	font-size: 1.2em;
+	padding: 10px 30px;
+	margin: 20px -2px;
+}
+
+.serv-exemp h1{
+	background-color: #ef0000;
+}
+
+.serv-exemp h2{
+	background-color: #00aeef;
+}
+
+.serv-exemp ul{
+}
+
+.serv-exemp li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.exemp_legenda{
+	text-align: right;
+	position: absolute;
+	left: 40px;
+	top: 25px;
+}
+
+.serv-fix{
+	margin-bottom: 25px;
+}
+
+.marketing:hover{
+	background:url(../imgs/servicos/marketing_hover.png);
+}
+
+/* ORÇAMENTO SPACE STYLE*/
+
+.orcamento-style{
+	text-align: right;
+	margin-top: -20px;
+}
+
+.orcamento-style h1{
+	font-family: Verdana;
+	font-size: 270%;
+	margin-bottom: 0;
+}
+
+.orcamento-style h2{
+	font-family: 'txt-caviar', sans-serif;
+	font-size: 3em;
+	margin-top: 0;
+}
+
+/* Botão Orçamento */
+
+.button-orc:focus, .button-orc::-moz-focus-inner{
+	outline:none;
+	border:none;
+}
+.button-orc{
+	border: none;
+	cursor: pointer;
+}
+
+.button-orc{
+	border-radius: 0;
+	background-color: #47c5f3;
+	box-shadow: 0 8px 0 #00aeef;
+	padding: 10px 30px;
+	font-size: .8em;
+	color: white;
+}
+
+.button-orc:hover{
+	background-color: #00aeef;
+	color: white;
+	box-shadow: 0 8px 0 #00aeef;
+}
+
+.button-orc:active{
+	position: relative;
+	top: 8px;
+	box-shadow: none;
+}
+
+.button-contact{
+	margin-top: 0px;
+	box-shadow: 0 3px 0 #003d70;
+	border-radius: 0px;
+	background-color: #00aeef;
+}
+
+.button-contact:hover{
+	background-color: white;
+	color: #141414;
+	box-shadow: 0 3px 0 gray;
+}
+
+/* ORCAMENTO MODAL STYLE */
+
+.orcamento-modal-body{
+	background-color: #141414;
+}
+
+.orcamento-modal-body, .orcamento-modal-body fieldset, legend{
+	color: white;
+}
+
+.orcamento-modal-body label{
+	color: #00aeef;
+}
+
+.orcamento-modal-body input, .orcamento-modal-body textarea{
+	border: none;
+	border-radius: 0px;
+	background-color: #00aeef;
+	color: white;
+}
+
+.modal-footer{
+	color: #141414;
+}
+
+/* SOBRE NÓS */
+
+.sobre-nos{
+}
+
+.sobre-nos h1{
+	color: #00aeef;
+}
+
+.col-box{
+
+}
+
+.col-box:hover{
+	background-color: darkgray;
+}
+
+.well{
+	border: none;
+	border-radius: 0;
+}
+
+
+/* Re-sizing tablet */
+
+.size-w{
+	width: 40%;
+}
+
+.feature{
+	text-align: center;
+}
+
+/* Contato */
+
+.contact{
+	background-color: #141414;
+	padding-bottom: 50px;
+	border-top: 10px solid #00aeef;
+}
+
+.contact-header{
+	margin: 50px 0 30px 0;
+}
+
+.contact-icon{
+	width: 6%;
+}
+
+.contact-pointer{
+	width: 20%;
+}
+
+.contact h5, .contact h4, .contact li{
+	color: #00aeef;
+}
+
+.contact-anchor a:hover, .contact-anchor a:active, .contact-anchor a:visited, .contact-anchor a:link{
+	text-decoration: none;
+	color: #00aeef;
+}
+
+.contact h1{
+	color: white;
+	text-align: left;
+	font-size: 2em;
+}
+.contact h5{
+	font-size: .8em;
+}
+
+.contact h4{
+	margin-top: -10px;
+}
+
+.contact ul{
+	margin-left: 60px;
+}
+
+.contact li{
+	list-style-type: none;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.form-group{
+	text-align: left;
+	color: gray;
+}
+
+.input-group-addon{
+	background-color: #00aeef;
+	border: none;
+}
+
+.form-control{
+	background-color: #00aeef;
+	border: none;
+	border-radius: 0px;
+}
+
+.form-control p{
+	color: #141414;
+
+}
+
+/* <FOOTER> FACTORY DEFAULT STYLE 
+
+footer, .feature{
+	text-align: center;
+}
+
+footer{
+	height: 110px;
+	background-color: #141414;
+	border-top: 20px solid #00aeef;
+}
+
+footer h4{
+	padding-top: 5px;
+
+	color: gray;
+	vertical-align: middle;
+}
+
+footer h5{
+	color: darkgray;
+}
+
+footer h4, h5{
+	text-align: center;
+	font-size: 0.7em;
+}
+
+footer a{
+	color: #00aeef;
+}
+
+footer img{
+	position: absolute;
+	top:-36px;
+	left: 0;
+	width: 10%;
+}
+
+footer .factory-reference{
+	display: block;
+	display: inline-block;
+}
+*/
+
+.footer-feature{
+	margin: 0 auto;
+	margin-top: -40px;
+	padding: 20px 0;
+	background-color: #141414;
+	/*border-top: 10px solid #00aeef;
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0, 173, 239, 0.45);
+	-moz-box-shadow:    0px 0px 0px 0px rgba(0, 173, 239, 0.45);
+	box-shadow:         0px 0px 0px 0px rgba(0, 173, 239, 0.45);*/
+}
+
+.footer-feature a{
+	color: #00d3f7;
+}
+
+.footer-feature p{
+	text-align: center;
+	color: #c6c6c6;
+}
+
+.footer-feature li, .footer-fcols li{
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer-fcols h2{
+	color: white;
+	font-size: 1.4em;
+	text-align: left;
+}
+
+.footer-ref{
+	padding: 15px 0;
+	padding-left: 30px;
+}
+
+.footer-logo{
+	width: 40%;
+	margin-left: 80px;
+}
+
+/* Definindo HR */
+
+/*==============================================================
+ ===============================================================
+ =========================== MEDIA =============================
+ ===============================================================
+ =============================================================== */
+
+@media (min-width: 1170px) {	/* Desktop */
+
+	/* LOGOTIPO */
+	.navlogo{
+		display: block;
+		width: 2.4%;
+		top: -20px
+		left: 0;
+		position: absolute;
+	}
+
+	.navlogo img{
+		width: 94%;
+	}
+
+	/* TIPOGRAFIA LOGO */
+
+	.navtypo{
+		display: block;
+		margin-top: -5px;
+	}
+
+	.navtypo h1, .navtypo h2, .navtypo h3{
+		text-align: center;
+		margin: 0 0 0 65px;
+	}
+
+	.navtypo h1{
+		color: #00aeef;
+		font-size: 1.5em;
+		font-family: "txt-factory", sans-serif;
+	}
+
+	/* STYLE:: CONTATO RAPIDO */
+	.fix-fast-contact{
+		display: block;
+		position: relative;
+		margin-top: 0;
+		opacity: 1;
+		left: 0;
+	}
+
+	.fix-fast-contact ul{
+		padding: 0 0 0 80%;
+	}
+
+	.fix-fast-contact ul, .fix-fast-contact li{
+		display: inline-block;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	.fix-fast-contact li{
+		margin: 0 -1.4%;
+	}
+
+	.fix-fast-contact li#telefone{
+		font-family: sans-serif;
+		font-size: 0.8em;
+		color: white;
+		padding-left: 8px;
+		vertical-align: middle;
+	}
+
+	.navbar-wrapper {
+        margin-top: 8px;  
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-wrapper .navbar {
+       border-radius: 4px;    
+    }
+
+	/* SLIDESHOW */
+	.carousel, .item, .carousel-inner{
+		height: 500px;
+	}
+
+	.carousel-inner > .item > img{
+		height: 500px;
+	}
+
+
+	.carousel{
+		margin: 51px auto;
+	}
+
+    .carousel-caption p{
+    	margin-bottom: 20px;
+    	font-size: 21px;
+    	line-height: 1.4;
+    }
+
+	#myCarouse-shadow{
+		margin-top: -98px;
+		opacity: .9;
+	}
+
+	/* slides */
+
+	.caption-top p{
+		margin-top: -300px;
+		padding-top: 0px;
+	}
+
+	.caption-topI h1{
+		margin-top: -400px;
+		padding-top: 0px;
+	}
+
+	.caption-topII h1{
+		margin-top: -430px;
+		padding-top: 0px;
+	}
+
+	.contact-icon{
+		width: 6%;
+	}
+
+	.contact-pointer{
+		width: 20%;
+	}
+
+	.contact ul{
+		margin-left: 14%;
+	}
+
+    /* FOOTER */
+	
+	footer{
+
+	}
+
+	footer p{
+		margin-top: 15px;
+	}
+	
+	footer h4{
+		text-align: right;
+		font-size: 1em;
+	}
+
+	footer h5{
+		text-align: left;
+		padding-left: -10%;
+		font-size: 0.9em;
+	}
+
+    footer img{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 70%;
+	}
+
+	.footer-logo{
+		width: 30%;
+		margin-left: 34%;
+	}
+
+	.footer-ref{
+		margin-top: 10px;
+	}
+
+	.footer-hr{
+		border: 0;
+		height: 200px;
+		border-left: 1px solid rgba(97,102,104,0.25);
+	}
+
+}
+
+/*==============================================================
+ ===============================================================
+ =========================== MEDIA =============================
+ ===============================================================
+ =============================================================== */
+
+@media (min-width: 768px) and (max-width: 1169px){ /* High Tablets e Small Desktops */
+	/* LOGOTIPO */
+	.navlogo{
+		display: block;
+		width: 12.2%;
+		top: -20px
+		left: 0;
+		position: absolute;
+	}
+
+	/* TIPOGRAFIA LOGO */
+
+	.navtypo{
+		display: block;
+		margin-top: 4px;
+	}
+
+	.navtypo h1, .navtypo h2, .navtypo h3{
+		text-align: center;
+		margin: -5px 0 0 70px;
+	}
+
+	.navtypo h1{
+		color: #00aeef;
+		font-size: 1.5em;
+		font-family: "txt-factory", sans-serif;
+	}
+
+	/* STYLE:: CONTATO RAPIDO */
+	.fix-fast-contact{
+		display: block;
+		position: absolute;
+		margin-top: 0;
+		opacity: 1;
+		left: 78%;
+	}
+
+	.fix-fast-contact ul{
+		padding: 0;
+	}
+
+	.fix-fast-contact ul, .fix-fast-contact li{
+		display: inline;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	.fix-fast-contact li{
+		margin: 0 -1.4%;
+	}
+
+	.fix-fast-contact li#telefone{
+		font-family: sans-serif;
+		font-size: 0.8em;
+		color: white;
+		padding-left: 8px;
+		vertical-align: middle;
+	}
+
+	.navbar-wrapper {
+        margin-top: 8px;  
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-wrapper .navbar {
+       border-radius: 4px;    
+    }
+
+    /* SLIDESHOW */
+
+	.carousel, .item, .carousel-inner{
+		height: 500px;
+	}
+
+	.carousel{
+		margin: 55px auto 94px auto;
+		top: 0;
+	}
+
+    .carousel-caption p{
+    	margin-bottom: 20px;
+    	font-size: 21px;
+    	line-height: 1.4;
+    }
+
+    #myCarouse-shadow{
+		margin-top: -94px;
+		opacity: 0;
+	}
+
+	/* slides */
+
+	.caption-top p{
+		margin-top: -43px;
+		padding-top: 0px;
+		font-size: 1.1em;
+	}
+
+	.caption-top h1{
+		margin-top: -12px;
+		padding-top: 0px;
+	}
+
+	.contact-icon{
+		width: 10%;
+	}
+
+	.contact-pointer{
+		width: 20%;
+	}
+
+	.contact ul{
+		margin-left: -20px;
+	}
+
+	footer{
+	}	
+
+	footer p{
+		margin-top: 70%;
+		font-size: 0.9em;
+	}
+
+	footer h4, h5{
+		text-align: center;
+		font-size: 1em;
+	}
+
+	footer h5{
+		padding-left: -20px;
+	}
+
+    footer img{
+		position: absolute;
+		top: 0px;
+		left: 10%;
+		width: 5.8%;
+	}
+
+	.footer-logo{
+		width: 40%;
+		margin-left: 58px;
+	}
+
+	.footer-ref{
+		margin: 35px 0 0 -10px;
+	}
+
+	.footer-hr{
+		border: 0;
+		height: 200px;
+		border-left: 1px solid rgba(97,102,104,0.25);
+	}
+
+}
+
+/*==============================================================
+ ===============================================================
+ =========================== MEDIA =============================
+ ===============================================================
+ =============================================================== */
+
+@media (min-width: 533px) and (max-width: 767px){ /* Small/Mediaum Tablets */
+	/* LOGOTIPO */
+	.navlogo{
+		display: block;
+		height: 51%;
+		top: -20px
+		left: 0;
+		position: absolute;
+	}
+
+	.navlogo img{
+		width: 51%;
+	}
+
+	/* TIPOGRAFIA LOGO */
+
+	.navtypo{
+		display: block;
+		margin-top: -2px;
+	}
+
+	.navtypo h1, .navtypo h2, .navtypo h3{
+		text-align: center;
+		margin: -5px 0 0 40px;
+	}
+
+	.navtypo h1{
+		color: #00aeef;
+		font-size: 25pt;
+		font-family: "txt-factory", sans-serif;
+	}
+
+	/* STYLE:: CONTATO RAPIDO */
+	.fix-fast-contact{
+		display: block;
+		position: absolute;
+		margin-top: -500px;
+		opacity: 0;
+		left: 80%;
+	}
+
+	.fix-fast-contact ul{
+		padding: 0;
+	}
+
+	.fix-fast-contact ul, .fix-fast-contact li{
+		display: inline;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	.fix-fast-contact li{
+		margin: 0 -1.4%;
+	}
+
+	.fix-fast-contact li#telefone{
+		font-family: sans-serif;
+		font-size: 0.8em;
+		color: white;
+		padding-left: 8px;
+		vertical-align: middle;
+	}
+
+	.navbar-wrapper {
+        margin-top: 0;  
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-wrapper .navbar {
+       border-radius: 4px;    
+    }
+
+    /* SLIDESHOW */
+
+	.carousel{
+		margin: 0px auto;
+	}
+
+    .carousel-caption p{
+    	margin-bottom: 20px;
+    	font-size: 21px;
+    	line-height: 1.4;
+    }
+
+	footer{
+		height: 120px;
+	}	
+
+	footer h4, h5{
+		text-align: center;
+		font-size: 1em;
+	}
+
+	footer h5{
+		padding-left: -20px;
+	}
+
+    footer img{
+		position: absolute;
+		top: -40px;
+		left: -1px;
+		width: 6%;
+	}
+}​

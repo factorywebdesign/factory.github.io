@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "txt-caviar";
+	src: url(../fonts/caviar_dreams/CaviarDreams.ttf);
+}
+
+@font-face{
+	font-family: "txt-factory";
+	src: url(../fonts/dolce_vita/DolceVitaHeavyBold.ttf);
+}
+
+@font-face{
+	font-family: "txt-all";
+	src: url(../fonts/geosans/GeosansLight.ttf);
+}
+
+@font-face{
+	font-family: "txt-web";
+	src: url(../fonts/nordica/NordicaRegular.otf);
+}
+
+@font-face{
+	font-family: "txt-symbol";
+	src: url(../fonts/mockup/Mockup-Regular.otf);
+}
+
+@font-face{
+	font-family: "txt-symbolB";
+	src: url(../fonts/mockup/Mockup-Bold.otf);
+}
+
+@font-face{
+	font-family: "txt-cursive";
+	src: url(../fonts/marcelle/Marcelle_Script_Bold.ttf);
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Molle:400italic);
