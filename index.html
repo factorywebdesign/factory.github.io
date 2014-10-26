@@ -171,7 +171,7 @@
 					<a href="servicos.html#suporte"><h2>SUPORTE</h2></a>
 					<ul class="serv-txt">
 						<li><span class="glyphicon glyphicon-chevron-right"></span> Manutenção</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Atualização de Tecnologias</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Novas Tecnologias</li>
 						<li><span class="glyphicon glyphicon-chevron-right"></span> Atualização de Conteúdo</li>
 					</ul>
 				</div>
@@ -182,7 +182,7 @@
 					<a href="servicos.html#identidade"><h2>IDENTIDADE VISUAL</h2></a>
 					<ul class="serv-txt">
 						<li><span class="glyphicon glyphicon-chevron-right"></span> Criação de Logotipo</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Reestilização de Logotipo</li>
+						<li><span class="glyphicon glyphicon-chevron-right"></span> Reestilização de Logo</li>
 						<li><span class="glyphicon glyphicon-chevron-right"></span> Marketing Email</li>
 					</ul>
 				</div>
@@ -279,11 +279,19 @@
 	</section>
 	<section id="" class="container-fluid feature sobre-nos">
 		<div class="row">
-			<h1>SOBRE NÓS</h1>
+			<strong><h1>SOBRE NÓS</h1></strong>
 			<div class="">
 				<div class="col-lg-12">
 					<h2>Pellentesque habitant morbi tristique senectus et netus <br>et malesuada fames ac turpis egestas.</h2>
-					<img class="" src="imgs/interface_missao_1000px_blue.png" alt="">
+					<!-- @Device >= 1200px * MUDAR IMAGEM PRA 980px ...'>=992px(sm)'* -->
+					<img class="hidden-xs hidden-sm"
+						src="imgs/interface_missao_1000px_blue.png" alt="">
+					<!-- @Device >= 768px -->
+					<img class="hidden-xs hidden-md hidden-lg"
+						src="imgs/interface_missao_750px_blue.png" alt="">
+					<!-- @Device < 768px * Mudar para 533px com reajuste por % *-->
+					<img class="hidden-sm hidden-lg"
+						src="imgs/interface_missao_750px_blue.png" alt="">
 				</div>
 
 				<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-3"></div>
@@ -304,6 +312,36 @@
 				<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-3"></div>
 			</div>
 		</div>
+	</section>
+	<section>
+		<div class="container">
+			<ul class="nav nav-tabs tab-selected">
+				<li class="active tab-selected"><a href="#tab_a" data-toggle="tab">Web Site</a></li>
+				<li><a href="#tab_b" data-toggle="tab">Suporte</a></li>
+				<li><a href="#tab_c" data-toggle="tab">Hospedagem</a></li>
+				<li><a href="#tab_d" data-toggle="tab">Identidade Visual</a></li>
+				<li><a href="#tab_e" data-toggle="tab">Animações 2D</a></li>
+				<li><a href="#tab_f" data-toggle="tab">Marketing</a></li>
+			</ul>
+			<div class="tab-content serv-exp">
+				<div class="tab-pane active" id="tab_a">
+					<h4>Pane A</h4>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				</div>
+				<div class="tab-pane serv-exp" id="tab_b">
+					<h4>Pane B</h4>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				</div>
+				<div class="tab-pane serv-exp" id="tab_c">
+					<h4>Pane C</h4>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				</div>
+				<div class="tab-pane serv-exp" id="tab_d">
+					<h4>Pane D</h4>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				</div>
+			</div><!-- tab content -->
+		</div><!-- end of container -->
 	</section>
 	<section id="contato" class="container-fluid feature contact">
 		<div class="row">

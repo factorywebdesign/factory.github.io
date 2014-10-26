@@ -281,7 +281,7 @@
 }
 
 .serv-feat{
-	margin-top: -30px;
+	margin-top: 20px;
 }
 
 .serv-feat h1{
@@ -298,7 +298,7 @@
 
 .serv-feat h2{
 	font-family: Verdana;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	color: #00aeef;
 	text-align: center;
 }
@@ -309,20 +309,20 @@
 }
 
 .serv-feat img{
+	width: 55%;
 }
 
 .serv-feat ul{
 	display: block;
-	margin: -20px 0 0 30px;
+	margin: -20px 0 0 -40%;
 }
 
 .serv-feat li{
 	font-family:;
-	font-size: .9em;
+	font-size: .7em;
 	font-weight: bold;
 	text-align: justify;
 	list-style: none;
-	margin-left: -20px;
 }
 
 .serv-txt{
@@ -370,6 +370,18 @@
 
 .marketing:hover{
 	background:url(../imgs/servicos/marketing_hover.png);
+}
+
+.nav-tabs li{
+	text-align: center;
+}
+
+.tab-selected{
+
+}
+
+.serv-exp{
+	background-color: #141414;
 }
 
 /* ORÇAMENTO SPACE STYLE*/
@@ -507,7 +519,7 @@
 }
 
 .contact-icon{
-	width: 6%;
+	width: 9%;
 }
 
 .contact-pointer{
@@ -537,11 +549,12 @@
 }
 
 .contact ul{
-	margin-left: 60px;
+	margin-left: -8%;
 }
 
 .contact li{
 	list-style-type: none;
+	font-size: .8em;
 	margin-bottom: 15px;
 	text-align: left;
 }
@@ -782,6 +795,19 @@ footer .factory-reference{
 		padding-top: 0px;
 	}
 
+	.serv-feat h2{
+		font-size: 1.5em;
+	}
+
+	.serv-feat ul{
+		margin-left: 10%;
+	}
+
+	.serv-feat li{
+		font-family:;
+		font-size: .9em;
+	}
+
 	.contact-icon{
 		width: 6%;
 	}
@@ -792,6 +818,11 @@ footer .factory-reference{
 
 	.contact ul{
 		margin-left: 14%;
+	}
+
+	.contact li{
+		list-style-type: none;
+		font-size: 1em;
 	}
 
     /* FOOTER */
@@ -964,6 +995,14 @@ footer .factory-reference{
 
 	.contact ul{
 		margin-left: -20px;
+	}
+
+	.serv-feat{
+		margin-top: 40px;
+	}
+
+	.contact-icon{
+		width: 7%;
 	}
 
 	footer{
