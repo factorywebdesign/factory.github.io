@@ -309,7 +309,7 @@
 }
 
 .serv-feat img{
-	width: 55%;
+
 }
 
 .serv-feat ul{
@@ -325,7 +325,13 @@
 	list-style: none;
 }
 
-.serv-txt{
+.serv-txt h3{
+	text-align: left;
+	color: #0091c7;
+}
+
+.serv-txt p{
+	text-align: justify;
 }
 
 .serv-exemp{
