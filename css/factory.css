@@ -432,6 +432,48 @@
 	margin-top: 0;
 }
 
+/* Botão Login */
+
+
+.button-login:focus, .button-orc::-moz-focus-inner{
+	outline:none;
+	border:none;
+}
+.button-login{
+	border: none;
+	cursor: pointer;
+}
+
+.button-login{
+	border-radius: 0;
+	background-color: #e8e644;
+	box-shadow: 0 8px 0 #d1cf1d;
+	padding: 10px 30px;
+	font-size: .8em;
+	color: white;
+	text-align:left;
+	margin-left:-68%;
+}
+
+.button-login:hover{
+	background-color: #e8e644;
+	color: white;
+	box-shadow: 0 8px 0 #e8e644;
+}
+
+.button-login:active{
+	position: relative;
+	top: 8px;
+	box-shadow: none;
+}
+
+.timeline-style{
+	text-align:left;
+	margin-left:-7%;
+	padding-top:45px;
+	font-size:.6em;
+}
+
 /* Botão Orçamento */
 
 .button-orc:focus, .button-orc::-moz-focus-inner{
