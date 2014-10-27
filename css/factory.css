@@ -269,7 +269,11 @@
 /* REPOSICIONAMENTO SERVICOS */
 
 #servicos{
+	margin-top:-19px;
+	background-color: #f2f2f2;
+}
 
+.serv-bg{
 }
 
 .serv_circ{
