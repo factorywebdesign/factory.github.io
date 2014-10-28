@@ -81,10 +81,12 @@
 				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
 				<li data-target="#myCarousel" data-slide-to="2" class=""></li>
 				<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="4" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="5" class=""></li>
 			</ol>
 			<div class="carousel-inner slideI">
 				<div class="item active" 
-				style="background-image: url('imgs/pattern/lineforms.gif');">
+				style="background-image: url('imgs/wallpaper-29799552.png');">
 					<div class="carousel-caption">
 						<h1>Exemplo H1 - Slide 1</h1>
 						<p>Apenas um texto genérico!!</p>
@@ -92,11 +94,26 @@
 					</div>
 				</div>
 				<div class="item"
-				style="background-image: url('imgs/pattern/jeans_mini.png');">
+				style="background-image: url('imgs/wallpaper-2947929.jpg');">
 					<div class="carousel-caption">
 						<h1>Exemplo H1 - Slide 2</h1>
 						<p>Apenas um texto genérico!!</p>
 						<p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
+					</div>
+				</div>
+				<div class="item"
+				style="background-image: url('imgs/pattern/lineforms.gif');">
+					<div class="carousel-caption">
+						<h1>Exemplo H1 - Slide 2</h1>
+						<p>Apenas um texto genérico!!</p>
+						<p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
+					</div>
+				</div>
+				<div class="item"
+				style="background-image: url('imgs/pattern/jeans_mini.png');">
+					<div class="carousel-caption row">
+						<img src="imgs/banners/bolso.png" style="position:absolute;top:-310px;left:50px;" alt="">
+						<h1>Factory, construindo sites<br>que cabem em seu bolso!</h1>
 					</div>
 				</div>
 				<div class="item"
@@ -128,95 +145,89 @@
 
 	<section>
 		<div class="container-fluid feature">
-			<div class="row">
-				<div class="col-md-5 orcamento-style">
+			<div class="row align-welcome">
+				<div class="col-xs-12 col-md-5 orcamento-style">
 					<h1>O melhor da <span style="background-color:#141414;color:white;">WEB</span> ao seu alcance.</h1>
 					<h2>Faça seu orçamento:</h2>
 				</div>
-				<div class="col-md-2">
-					<h1 href="#myModal" data-toggle="modal">
+				<div class="col-xs-12 col-md-3 align-buttons">
+					<h1 style="display:inline;" href="#modOrc" data-toggle="modal">
 						<button class="btn btn-large button-orc">ORÇAMENTO</button>
 					</h1>
-				</div>
-				<div class="col-md-2">
-					<h1 href="#myModal" data-toggle="modal">
-						<button class="btn btn-large button-login">TIMELINE</button>
+					<h1 style="display:inline;" href="#modTime" data-toggle="modal">
+						<button class="btn btn-large button-timeline">TIMELINE</button>
 					</h1>
 				</div>
-				<div class="col-md-3 orcamento-style timeline-style">
-					<h2>Se você já é cliente, acesse sua timeline!!</h2>
+				<div class="col-xs-12 col-md-4 orcamento-style timeline-style">
+					<h2>Se você já é nosso cliente, acesse sua timeline!!</h2>
 				</div>
 			</div>
 		</div>
 	</section>
 	<hr style="padding-bottom:40px;margin-top:-40px;">
-	<section>
+	<section id="show-serv">
 		<div class="container-fluid feature">
 			<div class="row">
 				<!-- WEB SITE -->
 				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat">
-					<img src="imgs/servicos/flat_rwd.png" alt="">
-					<!--<h1 style="left:38.25%;">W</h1>-->
-					<a href="servicos.html#website"><h2>WEB SITE</h2></a>
-					<ul class="serv-txt">
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Responsivo</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Desktop</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Otimização SEO</li>
-					</ul>
+					<div class="thumbnail">
+				    	<img src="imgs/servicos/flat_rwd.png" alt="">
+				    	<div class="caption">
+				        	<a href="#website"><h2>WEB SITE</h2></a>
+						    <p style="text-align:center;">Responsivo<br>Desktop<br>Otimização SEO</p>
+					    </div>
+					</div>	
 				</div>
 				<!-- HOSPEDAGEM -->
-				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
-					<img src="imgs/servicos/flat_host.png" alt="">
-					<!--<h1 style="left:41.25%;">H</h1>-->
-					<a href="servicos.html#hospedagem"><h2>HOSPEDAGEM</h2></a>
-					<ul class="serv-txt">
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Hospedagem de Sites</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Hospedagem de APPs</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Planos</li>
-					</ul>
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat">
+					<div class="thumbnail">
+						<img src="imgs/servicos/flat_host.png" alt="">
+						<div class="caption">	
+							<a href="#hospedagem"><h2>HOSPEDAGEM</h2></a>
+							<p>Hospedagem de Sites<br>Hospedagem de APPs<br>Planos</p>
+					    </div>
+					</div>	
 				</div>
 				<!-- SUPORTE -->
-				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
-					<img src="imgs/servicos/flat_suporte.png" alt="">
-					<!--<h1  style="left:41.25%;;">S</h1>-->
-					<a href="servicos.html#suporte"><h2>SUPORTE</h2></a>
-					<ul class="serv-txt">
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Manutenção</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Novas Tecnologias</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Atualização de Conteúdo</li>
-					</ul>
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat">
+						<div class="thumbnail">
+							<img src="imgs/servicos/flat_suporte.png" alt="">
+							<div class="caption">	
+								<a href="servicos.html#suporte"><h2>SUPORTE</h2></a>	
+								<p>Manutenção<br>Novas Tecnologias<br>Atualização de Conteúdo</p>
+					    </div>
+					</div>	
 				</div>
 				<!-- IDENTIDADE VISUAL -->
-				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
-					<img src="imgs/servicos/flat_id.png" alt="">
-					<!--<h1 style="left:40.25%;">ID</h1>-->
-					<a href="servicos.html#identidade"><h2>IDENTIDADE VISUAL</h2></a>
-					<ul class="serv-txt">
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Criação de Logotipo</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Reestilização de Logo</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Marketing Email</li>
-					</ul>
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat">
+					<div class="thumbnail">
+						<img src="imgs/servicos/flat_id.png" alt="">
+						<div class="caption">
+							<a href="servicos.html#identidade"><h2>IDENTIDADE VISUAL</h2></a>
+							<p>Criação de Logotipo<br>Reestilização de Logo<br>Marketing Email</p>
+						</div>
+					</div>
 				</div>
-				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
+				<!-- ANIMAÇÃO 2D -->
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat">
+					<div class="thumbnail">
 					<img src="imgs/servicos/flat_coffee.png" alt="">
-					<!--<h1 style="left:40.25%;">A</h1>-->
-					<a href="servicos.html#animacao"><h2>ANIMAÇÃO 2D</h2></a>
-					<ul class="serv-txt">
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Apresentações</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Propagandas</li>
-					</ul>
+					<div class="caption">
+						<a href="servicos.html#animacao"><h2>ANIMAÇÃO 2D</h2></a>
+						<p>Apresentações<br>Propagandas</p>
+						</div>
+					</div>
 				</div>
-				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat" >
-					<img src="imgs/servicos/flat_marketing.png" alt="">
-					<!--<h1 style="left:40.25%;">M</h1>-->
-					<a href="servicos.html#hospedagem"><h2>MARKETING</h2></a>
-					<ul class="serv-txt">
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Conteúdo Informativo</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Slogan</li>
-						<li><span class="glyphicon glyphicon-chevron-right"></span> Mídia Social</li>
-					</ul>
+				<!-- MARKETING -->
+				<div class="col-xs-6 col-sm-4 col-md-2 serv-feat">
+					<div class="thumbnail">
+						<img src="imgs/servicos/flat_marketing.png" alt="">
+						<div class="caption">
+							<a href="servicos.html#hospedagem"><h2>MARKETING</h2></a>
+							<p>Conteúdo Informativo<br>Slogans<br>Mídia Social</p>
+						</div>
+					</div>
 				</div>
-			</div>
 		</div>
 	</section>
 	<hr>
@@ -292,43 +303,45 @@
 		<div class="row">
 			<strong><h1>SOBRE NÓS</h1></strong>
 			<div class="">
-				<div class="col-lg-12">
+				<div class="col-lg-12" style="padding-top:30px;">
 					<h2>Pellentesque habitant morbi tristique senectus et netus <br>et malesuada fames ac turpis egestas.</h2>
 					<!-- @Device >= 1200px * MUDAR IMAGEM PRA 980px ...'>=992px(sm)'* -->
-					<img class="hidden-xs hidden-sm hidden-md"
-						src="imgs/interface_missao_1000px_blue.png" alt="">
-					<!-- @Device >= 1200px * MUDAR IMAGEM PRA 980px ...'>=992px(sm)'* -->
-					<img class="hidden-xs hidden-sm hidden-lg"
-						src="imgs/interface_missao_965px_blue.png" alt="">
-					<!-- @Device >= 768px -->
-					<img class="hidden-xs hidden-md hidden-lg"
-						src="imgs/interface_missao_750px_blue.png" alt="">
-					<!-- @Device < 768px * Mudar para 533px com reajuste por % *-->
-					<img class="hidden-sm hidden-md hidden-lg"
-						src="imgs/interface_missao_750px_blue.png" alt="">
+					<div style="padding-top:20px;">
+						<img class="hidden-xs hidden-sm hidden-md"
+							src="imgs/interface_missao_1000px_blue.png" alt="">
+						<!-- @Device >= 1200px * MUDAR IMAGEM PRA 980px ...'>=992px(sm)'* -->
+						<img class="hidden-xs hidden-sm hidden-lg"
+							src="imgs/interface_missao_965px_blue.png" alt="">
+						<!-- @Device >= 768px -->
+						<img class="hidden-xs hidden-md hidden-lg"
+							src="imgs/interface_missao_750px_blue.png" alt="">
+						<!-- @Device < 768px * Mudar para 533px com reajuste por % *-->
+						<img class="hidden-sm hidden-md hidden-lg"
+							src="imgs/interface_missao_750px_blue.png" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row" style="margin:60px 0;">
-			<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-3"></div>
+		<div class="row sobre-nos-qualidades">
+			<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-0 col-lg-3"></div>
 			<div>
-				<div class="col-xs-12 col-sm-4 col-md-2">
+				<div class="col-xs-12 col-sm-4 col-md- col-lg-2">
 					<img src="imgs/sbn_qualidade.png" alt="">
 					<h2>Qualidade</h2>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+					<p>A Factory valoriza os detalhes, trabalhamos com layouts modernos e arrojados para melhor "lhe" atender. Oferecendo serviços de boa qualidade, atendendo perfeitamente às necessidades e expectativas do cliente.</p>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-2">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
 					<img src="imgs/sbn_preco.png" alt="">
 					<h2>Melhor Preço</h2>
 					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-2">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
 					<img src="imgs/sbn_tempo.png" alt="">
 					<h2>Prazo Estrito</h2>
 					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
 				</div>
 			</div>
-			<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-3"></div>
+			<!-- Centralizador --> <div class="col-xs-0 col-sm-0 col-md-0 col-lg-3"></div>
 		</div>
 	</section>
 	<hr>
@@ -347,13 +360,13 @@
 			<div class="tab-content serv-exp">
 				<div class="tab-pane active" id="tab_a">
 				<article id="websites">
-					<div class="row serv-feat">
+					<div class="row serv-exemp">
 						<!-- Alinhamento --> <div class="col-md-0"></div>
-						<div class="col-md-2">
+						<div class="col-md-3 col-md-4">
 							<img src="imgs/servicos/serv_spec_rwd.png" alt="">
 						</div>
 						<!-- Alinhamento --> <div class="col-md-1"></div>
-						<div class="col-md-7">
+						<div class="col-md-8 col-lg-7">
 							<div class="serv-text">
 									<br>	<br>	<br>	
 								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
@@ -369,7 +382,7 @@
 				</div>
 				<div class="tab-pane serv-exp" id="tab_b">
 					<article id="hospedagem">
-						<div class="row serv-feat">
+						<div class="row serv-exemp">
 							<!-- Alinhamento --> <div class="col-md-2"></div>
 							<div class="col-md-3">
 								<h1>HOSPEDAGEM</h1>
@@ -400,7 +413,7 @@
 				</div>
 				<div class="tab-pane serv-ext" id="tab_g">
 					<article id="websites">
-					<div class="row serv-feat">
+					<div class="row serv-exemp">
 						<!-- Alinhamento --> <div class="col-md-0"></div>
 						<div class="col-md-2">
 							<img src="imgs/servicos/serv_spec_timeline.png" alt="">
@@ -426,8 +439,8 @@
 	</section>
 	<section id="contato" class="container-fluid feature contact">
 		<div class="row">
-			<div class="col-xs-0 col-sm-0 col-md-2"></div>
-			<div class="col-sm-7 col-md-5">
+			<div class="col-xs-0 col-sm-0 col-md-0 col-lg-5"></div>
+			<div class="col-sm-7 col-md-7 col-lg-5">
 				<h1>CONTATO</h1>
 				<form class="myfirstform" role="form" novalidate>
 					<div class="form-group">
@@ -481,7 +494,7 @@
 					</div>
 				</form>
 			</div>
-			<div class="col-sm-5 col-md-3">
+			<div class="col-sm-5 col-md-5 col-lg-3">
 				<div class="contact-header">
 					<img src="imgs/contato/pointer.png" alt="" class="contact-pointer">
 					<div>
@@ -507,8 +520,8 @@
 	<footer>
 		<div class="container-fluid footer-feature">
 			<div class="row">
-				<div class="col-xs-0 col-sm-0 col-md-2"></div>
-				<div class="col-xs-5 col-sm-2 col-md-1 footer-fcols">
+				<div class="col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
+				<div class="col-xs-5 col-sm-2 col-md-2 col-lg-1 footer-fcols">
 					<ul>
 						<li><h2>Home</h2></li>
 						<li><a href="index.html">Início</a></li>
@@ -516,7 +529,7 @@
 						<li><a href="index.html#contato">Contato</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-6 col-sm-2 col-md-1 footer-fcols">
+				<div class="col-xs-6 col-sm-2 col-md-2 col-lg-1 footer-fcols">
 					<ul>
 						<li><h2>Serviços</h2></li>
 						<li><a href="servicos.html#websites">Web Site</a></li>
@@ -526,7 +539,7 @@
 						<li><a href="servicos.html#animacoes">Animações 2D</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-5 col-md-4 footer-fcols">
+				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 footer-fcols">
 					<ul>
 						<h2>FAQ</h2>
 						<li><a href="">Como funciona o processo de desenvolvimento da Factory?</a></li>
@@ -539,11 +552,11 @@
 					</ul>
 
 				</div>
-				<div class="col-xs-12 col-sm-3 col-md-2 footer-ref footer-hr">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 footer-ref footer-hr">
 					<img src="imgs/footer_logo2.png" alt="" class="footer-logo">
 					<p>Todos direitos reservados a <br><a href="www.factorywebdesign.com.br">Factory Web Design</a>.</p>
 				</div>
-				<div class="col-xs-0 col-sm-0 col-md-2"></div>
+				<div class="col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
 			</div>
 		</div>
 		</div>

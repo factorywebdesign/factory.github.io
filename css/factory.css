@@ -5,60 +5,10 @@
 		www.factorywebdesign.com.br
 		www.facebook.com/factorywebdesign.br
 		contato@factorywebdesign.com.br
+		factorywebdesign.oficial@gmail.com
 
 		Site desenvolvido por Factory Web Design.
-		Todos direitos reservados a ____________.
-
-		Para manutenção entre em contato conosco.
 */
-
-/* =============================== SHAPES ============================= */
-
-.quadrado-fluid{
-	position: relative;
-	width: 25%;
-	padding-bottom: 25%;
-	overflow: hidden;
-	background: #4679BD;
-}
-
-.circulo-fluid{
-    width: 25%;
-    height:0;
-    padding-bottom: 25%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #4679BD;
-}
-
-.circunferencia-fluid{
-    width: 25%;
-    height:0;
-    padding-bottom: 25%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border: solid 4px #4679BD;
-}
-
-.triangulo-down-fluid{
-	width: 25%;
-	height: 0;
-	padding-left: 25%;
-	padding-top: 25%;
-	overflow: hidden;
-}
-
-.triangulo-down-fluid div{
-	width: 0; 
-	height: 0;
-	margin-left:-500px;
-	margin-top:-500px;
-	border-left: 500px solid transparent;
-	border-right: 500px solid transparent;
-	border-top: 500px solid #4679BD;
-}
 
 /* ================================= MENU ================================= */
 
@@ -71,49 +21,25 @@
 /* LOGOTIPO */
 .navlogo{
 	display: block;
-	height: 70%;
-	top: -20px
-	left: 0;
 	position: absolute;
-}
-
-.navlogo img{
-	width: 51%;
 }
 
 /* TIPOGRAFIA LOGO */
 
 .navtypo{
 	display: block;
-	margin-top: -2px;
+	margin-top: -3px;
 }
 
 .navtypo h1, .navtypo h2, .navtypo h3{
 	text-align: center;
-	margin: 0 0 0 40px;
+	margin: 0 0 0 80%;
 }
 
 .navtypo h1{
 	color: #00aeef;
-	font-size: 20pt;
+	font-size: 1.5em;
 	font-family: "txt-factory", sans-serif;
-}
-
-.navtypo h2{
-	color: white;
-	font-size: 25pt;
-	font-family: "txt-web", sans-serif;	
-}
-
-.navtypo h2 span{
-	padding: 0 13px;
-}
-
-.navtypo h3{
-	color: darkgray;
-	font-size: 23pt;
-	font-family: "txt-all", sans-serif;
-	margin-top: -29px;
 }
 
 .navbar-wrapper {
@@ -145,17 +71,6 @@
 	height: 3px;
 }
 
-.right-inner-addon input {
-	padding-right: 30px;
-}
-
-.right-inner-addon i {
-	position: absolute;
-	right: 0px;
-	padding: 10px 12px;
-	pointer-events: none;
-}
-
 /* SLIDESHOW */
 
 .carousel{
@@ -181,46 +96,6 @@
 	margin-left: -20px;
 }
 
-#myCarouse-shadow{
-	display: block;
-	margin-top: -95px;
-	width: 100%;
-	opacity: 1;
-}
-
-/* ================================ FAST CONTACT ================================= */
-
-
-/* STYLE:: CONTATO RAPIDO */
-.fix-fast-contact{
-	display: block;
-	position: absolute;
-	margin-top: -570px;
-	opacity: 0;
-}
-
-.fix-fast-contact ul{
-	padding: 0 0 0 75%;
-}
-
-.fix-fast-contact ul, .fix-fast-contact li{
-	display: inline;
-	margin: 0;
-	list-style-type: none;
-}
-
-.fix-fast-contact li{
-	margin: 0 -1%;
-}
-
-.fix-fast-contact li#telefone{
-	font-family: "txt-all", sans-serif;
-	font-size: 0.8em;
-	color: white;
-	padding-left: 8px;
-	vertical-align: middle;
-}
-
 /* MENU SHADOW */
 
 .menushadow{
@@ -233,6 +108,7 @@
 
 .feature{
 	margin: 0 0 40px 0;
+	text-align: center;
 }
 
 .feature p, h2{
@@ -266,6 +142,97 @@
 	padding: 10px 0;
 }
 
+
+/* ORÇAMENTO SPACE STYLE*/
+
+.orcamento-style{
+	text-align: center;
+	margin-top: -20px;
+}
+
+.orcamento-style h1{
+	font-family: Verdana;
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+.orcamento-style h2{
+	font-family: 'txt-caviar', sans-serif;
+	font-size: 2.2em;
+	margin-top: 0;
+}
+
+/* Botão Login */
+.button-timeline, .button-orc{
+	padding: 10px 20px;
+	margin: 0 -5.5px;
+	text-align: center;
+	position: relative;
+}
+
+.button-timeline:focus, .button-timeline::-moz-focus-inner{
+	outline:none;
+	border:none;
+}
+.button-timeline{
+	border: none;
+	cursor: pointer;
+}
+
+.button-timeline{
+	border-radius: 0;
+	background-color: #e8e644;
+	box-shadow: 0 8px 0 #d1cf1d;
+	color: white;
+}
+
+.button-timeline:hover{
+	background-color: #e8e644;
+	color: white;
+	box-shadow: 0 8px 0 #e8e644;
+}
+
+.button-timeline:active{
+	position: relative;
+	top: 8px;
+	box-shadow: none;
+}
+
+.timeline-style{
+	padding-top:45px;
+	text-align: center;
+}
+
+/* Botão Orçamento */
+
+.button-orc:focus, .button-orc::-moz-focus-inner{
+	outline:none;
+	border:none;
+}
+.button-orc{
+	border: none;
+	cursor: pointer;
+}
+
+.button-orc{
+	border-radius: 0;
+	background-color: #47c5f3;
+	box-shadow: 0 8px 0 #00aeef;
+	color: white;
+}
+
+.button-orc:hover{
+	background-color: #00aeef;
+	color: white;
+	box-shadow: 0 8px 0 #00aeef;
+}
+
+.button-orc:active{
+	position: relative;
+	top: 8px;
+	box-shadow: none;
+}
+
 /* REPOSICIONAMENTO SERVICOS */
 
 #servicos{
@@ -276,16 +243,31 @@
 .serv-bg{
 }
 
-.serv_circ{
-  border-radius: 50%;
-  background-color: #00aeef;
-  width: 143px;
-  height: 143px;
-  z-index: 3;
+#show-serv, .thumbnail, .caption{
+
+}
+
+#show-serv{
+	margin: -50px 0;
+}
+
+.thumb-shadow{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.caption p{
+	color: #4e4e4e;
+	text-align: center;
+}
+
+.thumbnail{
+	border-style: none;
 }
 
 .serv-feat{
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .serv-feat h1{
@@ -308,24 +290,22 @@
 }
 
 .serv-feat p{
-	color: #141414;
-	text-align: justify;
+	text-align: center;
 }
 
 .serv-feat img{
-
+	max-width: 60%;
 }
 
 .serv-feat ul{
 	display: block;
-	margin: -20px 0 0 -40%;
+	margin: -20px 0 0 -30%;
 }
 
-.serv-feat li{
+.serv-feat li, .serv-feat p{
 	font-family:;
-	font-size: .7em;
+	font-size: .6em;
 	font-weight: bold;
-	text-align: justify;
 	list-style: none;
 }
 
@@ -334,12 +314,12 @@
 	color: #0091c7;
 }
 
-.serv-txt p{
+.serv-txt, .serv-txt p{
 	text-align: justify;
 }
 
 .serv-exemp{
-	background-color: #f2f2f2;
+
 	color: #141414;
 }
 
@@ -369,7 +349,6 @@
 }
 
 .serv-exemp img{
-	margin: 0 auto;
 }
 
 .exemp_legenda{
@@ -417,112 +396,6 @@
 	margin-bottom: 50px;
 }
 
-/* ORÇAMENTO SPACE STYLE*/
-
-.orcamento-style{
-	text-align: right;
-	margin-top: -20px;
-}
-
-.orcamento-style h1{
-	font-family: Verdana;
-	font-size: 270%;
-	margin-bottom: 0;
-}
-
-.orcamento-style h2{
-	font-family: 'txt-caviar', sans-serif;
-	font-size: 3em;
-	margin-top: 0;
-}
-
-/* Botão Login */
-
-
-.button-login:focus, .button-orc::-moz-focus-inner{
-	outline:none;
-	border:none;
-}
-.button-login{
-	border: none;
-	cursor: pointer;
-}
-
-.button-login{
-	border-radius: 0;
-	background-color: #e8e644;
-	box-shadow: 0 8px 0 #d1cf1d;
-	padding: 10px 30px;
-	font-size: .8em;
-	color: white;
-	text-align:left;
-	margin-left:-70%;
-}
-
-.button-login:hover{
-	background-color: #e8e644;
-	color: white;
-	box-shadow: 0 8px 0 #e8e644;
-}
-
-.button-login:active{
-	position: relative;
-	top: 8px;
-	box-shadow: none;
-}
-
-.timeline-style{
-	text-align:left;
-	margin-left:-7%;
-	padding-top:45px;
-	font-size:.6em;
-}
-
-/* Botão Orçamento */
-
-.button-orc:focus, .button-orc::-moz-focus-inner{
-	outline:none;
-	border:none;
-}
-.button-orc{
-	border: none;
-	cursor: pointer;
-}
-
-.button-orc{
-	border-radius: 0;
-	background-color: #47c5f3;
-	box-shadow: 0 8px 0 #00aeef;
-	padding: 10px 30px;
-	font-size: .8em;
-	color: white;
-}
-
-.button-orc:hover{
-	background-color: #00aeef;
-	color: white;
-	box-shadow: 0 8px 0 #00aeef;
-}
-
-.button-orc:active{
-	position: relative;
-	top: 8px;
-	box-shadow: none;
-}
-
-.button-contact{
-	margin-top: 0px;
-	box-shadow: 0 3px 0 #003d70;
-	border-radius: 0px;
-	background-color: #00aeef;
-}
-
-.button-contact:hover{
-	background-color: white;
-	color: #141414;
-	box-shadow: 0 3px 0 gray;
-}
-
 /* ORCAMENTO MODAL STYLE */
 
 .orcamento-modal-body{
@@ -557,32 +430,12 @@
 	color: #00aeef;
 }
 
-.col-box{
-
+.sobre-nos h2{
+	font-size: 1.8em;
 }
 
-.col-box:hover{
-	background-color: darkgray;
-}
-
-.well{
-	border: none;
-	border-radius: 0;
-}
-
-
-/* Re-sizing tablet */
-
-.size-w{
-	width: 40%;
-}
-
-.feature{
-	text-align: center;
-}
-
-.nav-tabs li{
-	padding: 0 2%;
+.sobre-nos-qualidades{
+	margin: 60px 0 0 0;
 }
 
 /* Contato */
@@ -638,6 +491,20 @@
 	text-align: left;
 }
 
+.button-contact{
+	width: 200px;
+	margin-top: 0px;
+	box-shadow: 0 3px 0 #003d70;
+	border-radius: 0px;
+	background-color: #00aeef;
+}
+
+.button-contact:hover{
+	background-color: white;
+	color: #141414;
+	box-shadow: 0 3px 0 gray;
+}
+
 .form-group{
 	text-align: left;
 	color: gray;
@@ -658,51 +525,6 @@
 	color: #141414;
 
 }
-
-/* <FOOTER> FACTORY DEFAULT STYLE 
-
-footer, .feature{
-	text-align: center;
-}
-
-footer{
-	height: 110px;
-	background-color: #141414;
-	border-top: 20px solid #00aeef;
-}
-
-footer h4{
-	padding-top: 5px;
-
-	color: gray;
-	vertical-align: middle;
-}
-
-footer h5{
-	color: darkgray;
-}
-
-footer h4, h5{
-	text-align: center;
-	font-size: 0.7em;
-}
-
-footer a{
-	color: #00aeef;
-}
-
-footer img{
-	position: absolute;
-	top:-36px;
-	left: 0;
-	width: 10%;
-}
-
-footer .factory-reference{
-	display: block;
-	display: inline-block;
-}
-*/
 
 .footer-feature{
 	margin: 0 auto;
@@ -741,8 +563,8 @@ footer .factory-reference{
 }
 
 .footer-logo{
-	width: 40%;
-	margin-left: 80px;
+	width: 15%;
+	margin-left: 42%;
 }
 
 /* Definindo HR */
@@ -753,200 +575,142 @@ footer .factory-reference{
  ===============================================================
  =============================================================== */
 
-@media (min-width: 1170px) {	/* Desktop */
-
-	/* LOGOTIPO */
-	.navlogo{
-		display: block;
-		width: 2.4%;
-		top: -20px
-		left: 0;
-		position: absolute;
+@media (min-width: 1200px) {	/*_LG 	*/
+	.orcamento-style h1{
+		font-size: 3em;
 	}
 
-	.navlogo img{
-		width: 94%;
+	.orcamento-style h2{
+		font-size: 2.2em;
 	}
 
-	/* TIPOGRAFIA LOGO */
-
-	.navtypo{
-		display: block;
-		margin-top: -5px;
+	.orcamento-style h1, .orcamento-style h2{
+		text-align: right;
 	}
 
-	.navtypo h1, .navtypo h2, .navtypo h3{
-		text-align: center;
-		margin: 0 0 0 65px;
+	.align-welcome{
+		margin-top:-40px;
 	}
 
-	.navtypo h1{
-		color: #00aeef;
-		font-size: 1.5em;
-		font-family: "txt-factory", sans-serif;
+	/* Botão Login */
+
+	.align-buttons{
+		padding-top:15px;
 	}
 
-	/* STYLE:: CONTATO RAPIDO */
-	.fix-fast-contact{
-		display: block;
-		position: relative;
-		margin-top: 0;
-		opacity: 1;
-		left: 0;
+	.align-buttons h1{
+		margin:0 -9px;
+		font-size: 2em;
 	}
 
-	.fix-fast-contact ul{
-		padding: 0 0 0 80%;
+	.button-timeline, .button-orc{
+		font-size: .8em;
 	}
 
-	.fix-fast-contact ul, .fix-fast-contact li{
-		display: inline-block;
-		margin: 0;
-		list-style-type: none;
+	.timeline-style{
+		padding-top:10px;
 	}
 
-	.fix-fast-contact li{
-		margin: 0 -1.4%;
+	.timeline-style h2{
+		text-align:left;
+	}
+	/* REPOSICIONAMENTO SERVICOS */
+
+	#servicos{
+		margin-top:-19px;
 	}
 
-	.fix-fast-contact li#telefone{
-		font-family: sans-serif;
-		font-size: 0.8em;
-		color: white;
-		padding-left: 8px;
-		vertical-align: middle;
+	.serv-feat h1{
+		font-size: 5.8em;
+		top: 9px;
 	}
 
-	.navbar-wrapper {
-        margin-top: 8px;  
-    }
-    .navbar-wrapper .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .navbar-wrapper .navbar {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .navbar-wrapper .navbar {
-       border-radius: 4px;    
-    }
-
-	/* SLIDESHOW */
-	.carousel, .item, .carousel-inner{
-		height: 500px;
-	}
-
-	.carousel-inner > .item > img{
-		height: 500px;
-	}
-
-
-	.carousel{
-		margin: 51px auto;
-	}
-
-    .carousel-caption p{
-    	margin-bottom: 20px;
-    	font-size: 21px;
-    	line-height: 1.4;
-    }
-
-	#myCarouse-shadow{
-		margin-top: -98px;
-		opacity: .9;
-	}
-
-	/* slides */
-
-	.caption-top p{
-		margin-top: -300px;
-		padding-top: 0px;
-	}
-
-	.caption-topI h1{
-		margin-top: -400px;
-		padding-top: 0px;
-	}
-
-	.caption-topII h1{
-		margin-top: -430px;
-		padding-top: 0px;
+	.serv-feat1 h1{
+		left: 130px;
 	}
 
 	.serv-feat h2{
-		font-size: 1.5em;
+		font-size: 1.3em;
+		text-align: center;
 	}
 
-	.serv-feat ul{
-		margin-left: 10%;
+	.serv-feat img{
+		max-width: 50%;
 	}
 
-	.serv-feat li{
-		font-family:;
+	.serv-feat p{
+		text-align: center;
 		font-size: .9em;
 	}
 
+	.serv-feat li{
+		font-size: .85em;
+		text-align: center;
+	}
+
+	.serv-txt h3{
+		text-align: left;
+	}
+
+	.serv-exemp h1, .serv-exemp h2{
+		font-size: 1.2em;
+		padding: 10px 30px;
+		margin: 20px -2px;
+	}
+
+	.exemp_legenda{
+		left: 40px;
+		top: 25px;
+	}
+
+	/* SOBRE NÓS */
+
+	.sobre-nos h2{
+		font-size: 1.8em;
+	}
+
+	.sobre-nos-qualidades{
+		margin: 60px 0 0 0;
+	}
+
+	/* Contato */
+
 	.contact-icon{
-		width: 6%;
+		width: 9%;
 	}
 
 	.contact-pointer{
 		width: 20%;
 	}
 
+	.contact h1{
+		font-size: 2em;
+	}
+
 	.contact ul{
-		margin-left: 14%;
+		margin-left: 10%;
 	}
 
 	.contact li{
-		list-style-type: none;
-		font-size: 1em;
-	}
-
-    /* FOOTER */
-	
-	footer{
-
-	}
-
-	footer p{
-		margin-top: 15px;
-	}
-	
-	footer h4{
-		text-align: right;
-		font-size: 1em;
-	}
-
-	footer h5{
+		font-size: .9em;
+		margin-bottom: 15px;
 		text-align: left;
-		padding-left: -10%;
-		font-size: 0.9em;
 	}
 
-    footer img{
-		position: relative;
-		top: 0;
-		left: 0;
-		width: 70%;
+	.button-contact strong{
+		font-size: 1.5em;
+	}
+
+	.footer-hr{
+		border: 0;
+		height: 210px;
+		border-left: 1px solid rgba(97,102,104,0.25);
 	}
 
 	.footer-logo{
 		width: 30%;
 		margin-left: 34%;
 	}
-
-	.footer-ref{
-		margin-top: 10px;
-	}
-
-	.footer-hr{
-		border: 0;
-		height: 200px;
-		border-left: 1px solid rgba(97,102,104,0.25);
-	}
-
 }
 
 /*==============================================================
@@ -955,174 +719,155 @@ footer .factory-reference{
  ===============================================================
  =============================================================== */
 
-@media (min-width: 768px) and (max-width: 1169px){ /* High Tablets e Small Desktops */
-	/* LOGOTIPO */
-	.navlogo{
-		display: block;
-		width: 12.2%;
-		top: -20px
-		left: 0;
-		position: absolute;
+@media (min-width: 992px) {		/*_MD 	*/
+
+	.orcamento-style h1{
+		font-size: 2em;
 	}
 
-	/* TIPOGRAFIA LOGO */
-
-	.navtypo{
-		display: block;
-		margin-top: 4px;
-	}
-
-	.navtypo h1, .navtypo h2, .navtypo h3{
-		text-align: center;
-		margin: -5px 0 0 70px;
-	}
-
-	.navtypo h1{
-		color: #00aeef;
+	.orcamento-style h2{
 		font-size: 1.5em;
-		font-family: "txt-factory", sans-serif;
 	}
 
-	/* STYLE:: CONTATO RAPIDO */
-	.fix-fast-contact{
-		display: block;
-		position: absolute;
-		margin-top: 0;
-		opacity: 1;
-		left: 78%;
+	.orcamento-style h1, .orcamento-style h2{
+		text-align: right;
 	}
 
-	.fix-fast-contact ul{
-		padding: 0;
+	.align-welcome{
+		margin-top:-50px;
 	}
 
-	.fix-fast-contact ul, .fix-fast-contact li{
-		display: inline;
-		margin: 0;
-		list-style-type: none;
+	/* Botão Login */
+
+	.align-buttons{
+		padding-top:15px;
 	}
 
-	.fix-fast-contact li{
-		margin: 0 -1.4%;
+	.align-buttons h1{
+		margin:0 0px;
+		font-size: 1em;
 	}
 
-	.fix-fast-contact li#telefone{
-		font-family: sans-serif;
-		font-size: 0.8em;
-		color: white;
-		padding-left: 8px;
-		vertical-align: middle;
+	.button-timeline, .button-orc{
+		font-size: .8em;
 	}
 
-	.navbar-wrapper {
-        margin-top: 8px;  
-    }
-    .navbar-wrapper .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .navbar-wrapper .navbar {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .navbar-wrapper .navbar {
-       border-radius: 4px;    
-    }
-
-    /* SLIDESHOW */
-
-	.carousel, .item, .carousel-inner{
-		height: 500px;
+	.timeline-style{
+		padding-top:30px;
 	}
 
-	.carousel{
-		margin: 55px auto 94px auto;
-		top: 0;
+	.timeline-style h2{
+		text-align:left;
+	}
+	/* REPOSICIONAMENTO SERVICOS */
+
+	.caption a > h2{
+		font-size: 1em;
 	}
 
-    .carousel-caption p{
-    	margin-bottom: 20px;
-    	font-size: 21px;
-    	line-height: 1.4;
-    }
-
-    #myCarouse-shadow{
-		margin-top: -94px;
-		opacity: 0;
+	#servicos{
+		margin-top:-19px;
 	}
 
-	/* slides */
-
-	.caption-top p{
-		margin-top: -43px;
-		padding-top: 0px;
-		font-size: 1.1em;
+	#servicos h1{
+		font-size: 2.2em;
 	}
 
-	.caption-top h1{
-		margin-top: -12px;
-		padding-top: 0px;
+	.serv-feat h1{
+		font-size: 5.8em;
+		top: 9px;
 	}
+
+	.serv-feat1 h1{
+		left: 130px;
+	}
+
+	.serv-feat h2{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	.serv-feat img{
+		max-width: 50%;
+	}
+
+	.serv-feat p{
+		text-align: center;
+		font-size: .9em;
+	}
+
+	.serv-feat li{
+		font-size: .85em;
+		text-align: center;
+	}
+
+	.serv-txt h3{
+		text-align: left;
+	}
+
+	.serv-exemp h1, .serv-exemp h2{
+		font-size: 1.2em;
+		padding: 10px 30px;
+		margin: 20px -2px;
+	}
+
+	.exemp_legenda{
+		left: 40px;
+		top: 25px;
+	}
+
+	/* SOBRE NÓS */
+
+	.sobre-nos h1{
+		font-size: 2.2em;
+	}
+
+	.sobre-nos h2{
+		font-size: 1.8em;
+	}
+
+	.sobre-nos-qualidades{
+		margin: 60px 0 0 0;
+	}
+
+	/* Contato */
 
 	.contact-icon{
-		width: 10%;
+		width: 7%;
 	}
 
 	.contact-pointer{
 		width: 20%;
 	}
 
+	.contact h1{
+		font-size: 2em;
+	}
+
 	.contact ul{
-		margin-left: -20px;
+		margin-left: 10%;
 	}
 
-	.serv-feat{
-		margin-top: 40px;
+	.contact li{
+		font-size: .9em;
+		margin-bottom: 15px;
+		text-align: left;
 	}
 
-	.contact-icon{
-		width: 7%;
-	}
-
-	footer{
-	}	
-
-	footer p{
-		margin-top: 70%;
-		font-size: 0.9em;
-	}
-
-	footer h4, h5{
-		text-align: center;
-		font-size: 1em;
-	}
-
-	footer h5{
-		padding-left: -20px;
-	}
-
-    footer img{
-		position: absolute;
-		top: 0px;
-		left: 10%;
-		width: 5.8%;
-	}
-
-	.footer-logo{
-		width: 40%;
-		margin-left: 58px;
-	}
-
-	.footer-ref{
-		margin: 35px 0 0 -10px;
+	.button-contact strong{
+		font-size: 1.5em;
 	}
 
 	.footer-hr{
 		border: 0;
-		height: 200px;
+		height: 210px;
 		border-left: 1px solid rgba(97,102,104,0.25);
 	}
 
+	.footer-logo{
+		width: 30%;
+		margin-left: 34%;
+	}
 }
 
 /*==============================================================
@@ -1131,113 +876,9 @@ footer .factory-reference{
  ===============================================================
  =============================================================== */
 
-@media (min-width: 533px) and (max-width: 767px){ /* Small/Mediaum Tablets */
-	/* LOGOTIPO */
-	.navlogo{
-		display: block;
-		height: 51%;
-		top: -20px
-		left: 0;
-		position: absolute;
-	}
+@media (min-width: 768px){		/*_SM 	*/
 
-	.navlogo img{
-		width: 51%;
-	}
-
-	/* TIPOGRAFIA LOGO */
-
-	.navtypo{
-		display: block;
-		margin-top: -2px;
-	}
-
-	.navtypo h1, .navtypo h2, .navtypo h3{
-		text-align: center;
-		margin: -5px 0 0 40px;
-	}
-
-	.navtypo h1{
-		color: #00aeef;
-		font-size: 25pt;
-		font-family: "txt-factory", sans-serif;
-	}
-
-	/* STYLE:: CONTATO RAPIDO */
-	.fix-fast-contact{
-		display: block;
-		position: absolute;
-		margin-top: -500px;
-		opacity: 0;
-		left: 80%;
-	}
-
-	.fix-fast-contact ul{
-		padding: 0;
-	}
-
-	.fix-fast-contact ul, .fix-fast-contact li{
-		display: inline;
-		margin: 0;
-		list-style-type: none;
-	}
-
-	.fix-fast-contact li{
-		margin: 0 -1.4%;
-	}
-
-	.fix-fast-contact li#telefone{
-		font-family: sans-serif;
-		font-size: 0.8em;
-		color: white;
-		padding-left: 8px;
-		vertical-align: middle;
-	}
-
-	.navbar-wrapper {
-        margin-top: 0;  
-    }
-    .navbar-wrapper .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .navbar-wrapper .navbar {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .navbar-wrapper .navbar {
-       border-radius: 4px;    
-    }
-
-    /* SLIDESHOW */
-
-	.carousel{
-		margin: 0px auto;
-	}
-
-    .carousel-caption p{
-    	margin-bottom: 20px;
-    	font-size: 21px;
-    	line-height: 1.4;
-    }
-
-	footer{
-		height: 120px;
-	}	
-
-	footer h4, h5{
-		text-align: center;
-		font-size: 1em;
-	}
-
-	footer h5{
-		padding-left: -20px;
-	}
-
-    footer img{
-		position: absolute;
-		top: -40px;
-		left: -1px;
-		width: 6%;
-	}
-}​
+}
+@media (min-width: 400px){		/*_XS >	*/
+/* Tamanho das letras da apresentação de serviços e configuração das referências/footer */
+}
