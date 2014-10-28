@@ -574,6 +574,10 @@
 	opacity: 1;
 }
 
+legend, fieldset, .modal-footer, .modal-header, .formgroup{
+	border:none;
+}
+
 /* Definindo HR */
 
 /*==============================================================
