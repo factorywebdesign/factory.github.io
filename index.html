@@ -24,10 +24,8 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="http://code.jquery.com/jquery.min.js"></script>
-        <script src="js/bootstrap-carousel.js"></script>
-        <script src="js/bootstrap-transition.js"></script>
+        <script src="js/factory.js"></script>
     </head>
-
     <body>
         <header>
             <!-- Menu -->
@@ -74,11 +72,11 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="#sobre-nos">SOBRE NÓS</a>
+                                <li><a href="#" class="scroll-link" data-id="sobre-nos">SOBRE NÓS</a>
                                 </li>
                                 <li><a href="faq.html">FAQ</a>
                                 </li>
-                                <li><a href="#contato">CONTATO</a>
+                                <li><a href="#" class="scroll-link" data-id="contato">CONTATO</a>
                                 </li>
                             </ul>
                         </div>
@@ -254,98 +252,7 @@
             </div>
         </section>
         <hr>
-        <!-- Orçamento Modal -->
-        <section>
-            <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content orcamento-modal-body">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            	<h3 id="myModalLabel">ORÇAMENTO</h3>
-                        </div>
-                        <div class="modal-body">
-                            <!-- ORCAMENTO BODY -->
-                            <form role="form">
-                                <div class="form-group">
-                                    <label for="nome">Nome</label>
-                                    <input type="text" class="form-control" id="nome" placeholder="Digite aqui seu nome...">
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Digite aqui seu email...">
-                                </div>
-                                <div class="form-group">
-                                    <label for="tipoempresa">Tipo de negócio</label>
-                                    <input type="text" class="form-control" id="tipoempresa" placeholder="Digite aqui para que tipo de negócio deseja o(s) serviço(s)...">
-                                </div>
-                                	<h4>SERVIÇOS</h4>
-                                <fieldset class="form-group" id="website">
-                                    <!-- WEB SITE -->
-                                    <legend>Deseja criar um <a href="servicos.html#website">Web Site</a>:</legend>
-                                    <input type="radio" name="nWebSite" id="webDesktop">
-                                    <label for="webDesktop">&nbsp;Desktop&nbsp;&nbsp;</label>
-                                    <br>
-                                    <input type="radio" name="nWebSite" id="webRwd" checked="">
-                                    <label for="webRwd">&nbsp;Responsivo (Todos dispositivos)&nbsp;&nbsp;</label>
-                                    <br>
-                                    <input type="radio" name="nWebSite" id="webDesktop">
-                                    <label for="webNone">&nbsp;Nenhum&nbsp;&nbsp;</label>
-                                    <br>
-
-                                    <legend>Você possue conteúdo informativo para o site?</legend>
-                                    <input type="radio" name="nWebInfo" id="webinfoS">
-                                    <label for="webinfoN">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nWebInfo" id="webinfoN" checked="">
-                                    <label for="webinfoN">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="hospedagem">
-                                    <!-- HOSPEDAGEM -->
-                                    <legend>Deseja <a href="servicos.html#hospedagem">hospedar</a> seu site?</legend>
-                                    <input type="radio" name="nHost" id="hostS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nHost" id="hostN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="manutencao">
-                                    <!-- MANUTENÇÃO -->
-                                    <legend>Deseja <a href="servicos.html#manutencao">manutenção</a> em seu site?</legend>
-                                    <input type="radio" name="nMan" id="manS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nMan" id="manN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="identidade">
-                                    <!-- IDENTIDADE-->
-                                    <legend>Deseja criar uma <a href="servicos.html#identidade">Identidade Visual</a>?</legend>
-                                    <input type="radio" name="nIdentS" id="identS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nIdentN" id="identN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="animacoes">
-                                    <!-- ANIMAÇÕES -->
-                                    <legend>Deseja a criação de <a href="servicos.html#animacoes">Animações em 2D</a>?</legend>
-                                    <input type="radio" name="nAnime" id="animeS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nAnime" id="animeN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="comentario">
-                                    <legend>Comentário:</legend>
-                                    <textarea name="nComentario" id="idComent" cols="78" rows="5" placeholder="Digite aqui seu comentário"></textarea>
-                                </fieldset>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <!-- ORCAMENTO FOOTER -->
-                            <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
-                            <button type="submit" name="nEnviar" id="idEnviar" class="btn btn-primary">Enviar Orçamento</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="" class="container-fluid feature sobre-nos">
+        <section id="sobre-nos" class="container-fluid feature sobre-nos">
             <div class="row">
                 	<strong><h1>SOBRE NÓS</h1></strong>
                 <div class="">
@@ -504,13 +411,12 @@
                             </div>
                         </article>
                     </div>
-                </div>
-                <!-- tab content -->
+                </div>                 
             </div>
-            <!-- end of container -->
         </section>
         <section id="contato" class="container-fluid feature contact">
             <div class="row">
+                <a href="#" class="scroll-top back-to-top"><img src="imgs/subindo.png" alt=""></a>
                 <div class="col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
                 <div class="col-sm-7 col-md-7 col-lg-5">
                     	<h1>CONTATO</h1>
@@ -659,4 +565,101 @@
                 <br><br>
             </div>
         </footer>
+        <!--
+
+        MODAL
+
+        -->
+
+        <!-- Orçamento Modal -->
+        <section>
+            <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content orcamento-modal-body">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 id="myModalLabel">ORÇAMENTO</h3>
+                        </div>
+                        <div class="modal-body">
+                            <!-- ORCAMENTO BODY -->
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" class="form-control" id="nome" placeholder="Digite aqui seu nome...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Digite aqui seu email...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tipoempresa">Tipo de negócio</label>
+                                    <input type="text" class="form-control" id="tipoempresa" placeholder="Digite aqui para que tipo de negócio deseja o(s) serviço(s)...">
+                                </div>
+                                    <h4>SERVIÇOS</h4>
+                                <fieldset class="form-group" id="website">
+                                    <!-- WEB SITE -->
+                                    <legend>Deseja criar um <a href="servicos.html#website">Web Site</a>:</legend>
+                                    <input type="radio" name="nWebSite" id="webDesktop">
+                                    <label for="webDesktop">&nbsp;Desktop&nbsp;&nbsp;</label>
+                                    <br>
+                                    <input type="radio" name="nWebSite" id="webRwd" checked="">
+                                    <label for="webRwd">&nbsp;Responsivo (Todos dispositivos)&nbsp;&nbsp;</label>
+                                    <br>
+                                    <input type="radio" name="nWebSite" id="webDesktop">
+                                    <label for="webNone">&nbsp;Nenhum&nbsp;&nbsp;</label>
+                                    <br>
+
+                                    <legend>Você possue conteúdo informativo para o site?</legend>
+                                    <input type="radio" name="nWebInfo" id="webinfoS">
+                                    <label for="webinfoN">&nbsp;Sim&nbsp;&nbsp;</label>
+                                    <input type="radio" name="nWebInfo" id="webinfoN" checked="">
+                                    <label for="webinfoN">&nbsp;Não</label>
+                                </fieldset>
+                                <fieldset class="form-group" id="hospedagem">
+                                    <!-- HOSPEDAGEM -->
+                                    <legend>Deseja <a href="servicos.html#hospedagem">hospedar</a> seu site?</legend>
+                                    <input type="radio" name="nHost" id="hostS">
+                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                    <input type="radio" name="nHost" id="hostN" checked="">
+                                    <label for="webRwd">&nbsp;Não</label>
+                                </fieldset>
+                                <fieldset class="form-group" id="manutencao">
+                                    <!-- MANUTENÇÃO -->
+                                    <legend>Deseja <a href="servicos.html#manutencao">manutenção</a> em seu site?</legend>
+                                    <input type="radio" name="nMan" id="manS">
+                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                    <input type="radio" name="nMan" id="manN" checked="">
+                                    <label for="webRwd">&nbsp;Não</label>
+                                </fieldset>
+                                <fieldset class="form-group" id="identidade">
+                                    <!-- IDENTIDADE-->
+                                    <legend>Deseja criar uma <a href="servicos.html#identidade">Identidade Visual</a>?</legend>
+                                    <input type="radio" name="nIdentS" id="identS">
+                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                    <input type="radio" name="nIdentN" id="identN" checked="">
+                                    <label for="webRwd">&nbsp;Não</label>
+                                </fieldset>
+                                <fieldset class="form-group" id="animacoes">
+                                    <!-- ANIMAÇÕES -->
+                                    <legend>Deseja a criação de <a href="servicos.html#animacoes">Animações em 2D</a>?</legend>
+                                    <input type="radio" name="nAnime" id="animeS">
+                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
+                                    <input type="radio" name="nAnime" id="animeN" checked="">
+                                    <label for="webRwd">&nbsp;Não</label>
+                                </fieldset>
+                                <fieldset class="form-group" id="comentario">
+                                    <legend>Comentário:</legend>
+                                    <textarea name="nComentario" id="idComent" cols="78" rows="5" placeholder="Digite aqui seu comentário"></textarea>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- ORCAMENTO FOOTER -->
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+                            <button type="submit" name="nEnviar" id="idEnviar" class="btn btn-primary">Enviar Orçamento</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 </html>

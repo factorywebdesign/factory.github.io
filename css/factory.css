@@ -566,6 +566,14 @@
 	margin-left: 42%;
 }
 
+.back-to-top{
+	opacity: .3;
+}
+
+.back-to-top:hover{
+	opacity: 1;
+}
+
 /* Definindo HR */
 
 /*==============================================================
