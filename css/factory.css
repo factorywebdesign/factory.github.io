@@ -529,7 +529,6 @@
 .footer-feature{
 	margin: 0 auto;
 	margin-top: -40px;
-	padding: 20px 0;
 	background-color: #141414;
 	/*border-top: 10px solid #00aeef;
 	-webkit-box-shadow: 0px 0px 0px 0px rgba(0, 173, 239, 0.45);
@@ -676,7 +675,7 @@
 	/* Contato */
 
 	.contact-icon{
-		width: 9%;
+		width: 7%;
 	}
 
 	.contact-pointer{
