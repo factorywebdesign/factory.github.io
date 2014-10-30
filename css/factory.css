@@ -638,18 +638,11 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	border:none;
 }
 
-.panel-title, .panel-title a, .panel-title a:hover, .panel-title a:active{
-	text-decoration: none;
+.panel-default > .panel-heading {
+    color: #f2f2f2;
+    background-color: #444749;
+    border-color: #ddd;
 }
-
-.panel-title a:hover{
-	color: #00aeef;
-}
-
-.panel-title a:active{
-	color: #00aeef;
-}
-
 
 
 /* Definindo HR */
@@ -796,6 +789,10 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 		width: 30%;
 		margin-left: 34%;
 	}
+    
+    .serv-iframe-fix {
+        width: 1138px;
+    }
 }
 
 /*==============================================================
@@ -990,3 +987,24 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 		background-color: transparent;
 	}
 }
+
+.panel-title a:hover, .panel-title a:active,
+.panel-title a:hover, .panel-title a:active{
+    color: #00aeef;
+}
+
+.serv-iframe-pos {
+    margin: -17px 0 -20px -15px;
+}
+
+.serv-iframe-fix {
+	border: none;
+	overflow: hidden;
+    padding-right: -90px;
+    height: 500px;
+}
+
+.serv-iframe-fix::-webkit-scrollbar{
+	display: none;
+}
+
