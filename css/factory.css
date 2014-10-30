@@ -638,6 +638,20 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	border:none;
 }
 
+.panel-title, .panel-title a, .panel-title a:hover, .panel-title a:active{
+	text-decoration: none;
+}
+
+.panel-title a:hover{
+	color: #00aeef;
+}
+
+.panel-title a:active{
+	color: #00aeef;
+}
+
+
+
 /* Definindo HR */
 
 /*==============================================================
