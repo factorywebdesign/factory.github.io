@@ -149,7 +149,8 @@
 	height: 500px;
 }
 
-.caption-top p{
+.caption > p{
+    font-family: "txt-all", sans-serif;
 }
 
 .caption-top h1{
@@ -157,8 +158,16 @@
 }
 
 .caption h3{
-    font-size: 15px;
+    font-size: 1.8em;
     font-weight: 500px;
+    color: inherit;
+}
+
+.caption h3:hover:before p{
+     opacity: 0;   
+}
+.caption h3:hover:after p{
+     opacity: 1;   
 }
 
 /* MENU SHADOW */
@@ -211,7 +220,7 @@
 /* ORÇAMENTO SPACE STYLE*/
 
 .orcamento-style{
-	text-align: center;
+	text-align: right;
 	margin-top: -20px;
 }
 
@@ -233,6 +242,7 @@
 	margin: 0 -5.5px;
 	text-align: center;
 	position: relative;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .button-timeline:focus, .button-timeline::-moz-focus-inner{
@@ -313,20 +323,12 @@
 }
 
 #show-serv, .thumbnail, .caption{
-
+ 
 }
 
 .caption{
     width: 200px;
     margin-left: 45px;
-}
-
-.caption > p{
-    color: white;
-    border: 3px solid #141414;
-    border-radius: 0 0 15px 15px;
-    background: #141414;
-    padding-top: 10px;
 }
 
 #show-serv{
@@ -339,17 +341,12 @@
 	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
-.caption p{
-	color: #4e4e4e;
-	text-align: center;
-}
-
 .thumbnail{
 	border-style: none;
 }
 
 .serv-feat{
-	margin: 80px 0;
+	margin: 60px 0 0px 0;
 }
 
 .serv-feat h1{
@@ -506,6 +503,7 @@
 /* SOBRE NÓS */
 
 .sobre-nos{
+    padding-top: 40px;
 }
 
 .sobre-nos h1{
@@ -689,23 +687,25 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	}
 
 	.align-welcome{
-		margin-top:-40px;
+		margin-bottom:;
 	}
 
 	/* Botão Login */
 
 	.align-buttons{
-		padding-top:15px;
+		padding-top:0px;
 	}
 
 	.align-buttons h1{
-		margin:0 -9px;
-		font-size: 2em;
+		margin:0 0px;
+		font-size: 1em;
+        text-align: left;
 	}
 
-	.button-timeline, .button-orc{
-		font-size: .8em;
-	}
+	.button-orc{
+		font-size: 1.8em;
+        padding: 10px 30px;
+    }
 
 	.timeline-style{
 		padding-top:10px;
@@ -844,16 +844,19 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	/* Botão Login */
 
 	.align-buttons{
-		padding-top:15px;
+		padding-top:0px;
 	}
 
 	.align-buttons h1{
 		margin:0 0px;
 		font-size: 1em;
+        text-align: left;
 	}
 
-	.button-timeline, .button-orc{
-		font-size: .8em;
+	.button-orc{
+		font-size: 1.8em;
+        padding: 10px 30px;
+        text-align: left;
 	}
 
 	.timeline-style{
@@ -1178,23 +1181,19 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     opacity: 0;
 }
 
-
 .caption-header {
-    background: #f2f2f2;
-    border: 1px solid #ddd;
-    border-radius: 10px 10px 0 0;
-    height: 20px;
+
 }
 
-pointer{
-    bottom: 0%;
-    margin-bottom: -2px;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-    background: #f2f2f2;
+.caption-tri{
+    width: 0px;
+    height: 0px;
+    border: 1px solid #ddd;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent #141414 transparent;
+    margin-left: 80px;
+}
+
+.color-1 {
+	background: #435a6b;
 }
