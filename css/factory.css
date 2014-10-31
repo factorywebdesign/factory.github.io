@@ -572,17 +572,27 @@
 }
 
 .button-contact{
-	width: 200px;
+    color: white;
+	outline:none;
+    border: none;
+	cursor: pointer;
 	margin-top: 0px;
-	box-shadow: 0 3px 0 #003d70;
+	box-shadow: 0 5px 0 #003d70;
 	border-radius: 0px;
 	background-color: #00aeef;
+    font-size: .8em;
 }
 
 .button-contact:hover{
-	background-color: white;
+	background-color: #003d70;
 	color: #141414;
-	box-shadow: 0 3px 0 gray;
+	box-shadow: 0 7px 0 #003d70;
+}
+
+.button-contact:active{
+    margin-top: 7px;
+    box-shadow: none;
+    background-color: #003d70;
 }
 
 .form-group{
