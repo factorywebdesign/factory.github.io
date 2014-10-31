@@ -156,6 +156,11 @@
 	margin-left: -20px;
 }
 
+.caption h3{
+    font-size: 15px;
+    font-weight: 500px;
+}
+
 /* MENU SHADOW */
 
 .menushadow{
@@ -311,6 +316,19 @@
 
 }
 
+.caption{
+    width: 200px;
+    margin-left: 45px;
+}
+
+.caption > p{
+    color: white;
+    border: 3px solid #141414;
+    border-radius: 0 0 15px 15px;
+    background: #141414;
+    padding-top: 10px;
+}
+
 #show-serv{
 	margin: -50px 0;
 }
@@ -331,7 +349,7 @@
 }
 
 .serv-feat{
-	margin-top: 30px;
+	margin: 80px 0;
 }
 
 .serv-feat h1{
@@ -849,6 +867,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 
 	.caption a > h2{
 		font-size: 1em;
+        color: #141414;
 	}
 
 	#servicos{
@@ -1052,4 +1071,130 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     font-size: 2.5em;
     text-align: center;
     font-family: "txt-all";
+}
+
+.circle {
+	background: rgb(255,255,255);
+	border-radius: 100%;
+	cursor: pointer;
+	position: relative;
+	margin: 0 auto;
+	width: 162px;
+    height: 162px;
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+			transform: translateZ(0);
+}
+
+.circle:before,
+.circle:after{
+	border-radius: 100%;
+	content:"";
+	position: absolute;
+	top: 0; left: 0;
+	width: inherit; height: inherit;
+	box-shadow: inset 10.6em 0 0 rgba(33, 157, 235, 0.2),
+				inset 0 10.6em 0 rgba(33, 157, 235, 0.2),
+				inset -10.6em 0 0 rgba(33, 157, 235, 0.2),
+				inset 0 -10.6em 0 rgba(33, 157, 235, 0.2);
+	-webkit-transition: box-shadow 0.55s;
+	   -moz-transition: box-shadow 0.55s;
+		-ms-transition: box-shadow 0.55s;
+			transition: box-shadow 0.55s;
+}
+
+.circle:after {
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+			transform: rotate(45deg);
+}
+
+.circle:hover:before,
+.circle:hover:after {
+	box-shadow: inset 0.36em 0 0 #00baff,
+				inset 0 0.36em 0 #00aeef,
+				inset -0.36em 0 0 #0091c7,	
+				inset 0 -0.36em 0 #007dab;
+}
+
+.circle-yellow:before,
+.circle-yellow:after{
+	box-shadow: inset 10.6em 0 0 rgba(231, 239, 0, 0.2),
+				inset 0 10.6em 0 rgba(231, 239, 0, 0.2),
+				inset -10.6em 0 0 rgba(231, 239, 0, 0.2),
+				inset 0 -10.6em 0 rgba(231, 239, 0, 0.2);
+}
+
+.circle-yellow:hover:before,
+.circle-yellow:hover:after {
+	box-shadow: inset 0.36em 0 0 #f6ff00,
+				inset 0 0.36em 0 #e7ef00,
+				inset -0.36em 0 0 #b6bd00,	
+				inset 0 -0.36em 0 #939800;
+}
+
+
+.circle-red:before,
+.circle-red:after{
+	box-shadow: inset 10.6em 0 0 rgba(209, 30, 30, 0.2),
+				inset 0 10.6em 0 rgba(209, 30, 30, 0.2),
+				inset -10.6em 0 0 rgba(209, 30, 30, 0.2),
+				inset 0 -10.6em 0 rgba(209, 30, 30, 0.2);
+}
+
+.circle-red:hover:before,
+.circle-red:hover:after {
+	box-shadow: inset 0.36em 0 0 #ff0000,
+				inset 0 0.36em 0 #ef0000,
+				inset -0.36em 0 0 #bd0000,	
+				inset 0 -0.36em 0 #9f0000;
+}
+
+.circle img{
+    margin-top: 40px;
+    opacity: 0;
+}
+
+.circle:hover img{
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.circle:before img{
+    transition: 0.75s;
+}
+
+.circle > h1 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    margin: 18% 0 0 30%;
+}
+
+.circle:hover > h1 {
+    opacity: 0;
+}
+
+
+.caption-header {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+    height: 20px;
+}
+
+pointer{
+    bottom: 0%;
+    margin-bottom: -2px;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+    background: #f2f2f2;
 }
