@@ -328,7 +328,7 @@
 
 .caption{
     width: 200px;
-    margin-left: 45px;
+    margin-left:;
 }
 
 #show-serv{
@@ -343,6 +343,7 @@
 
 .thumbnail{
 	border-style: none;
+    margin: auto 0;
 }
 
 .serv-feat{
@@ -1091,7 +1092,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	border-radius: 100%;
 	cursor: pointer;
 	position: relative;
-	margin: 0 auto;
+	margin: 0 0 0 3%;
 	width: 162px;
     height: 162px;
 	overflow: hidden;
