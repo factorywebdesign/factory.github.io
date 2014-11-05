@@ -134,19 +134,20 @@
 /* SLIDESHOW */
 
 .carousel{
-	margin: 0px auto 94px 0;
+	margin: 0px auto 94px auto;
 }
 
 .carousel-caption{
 	z-index: 10;
+    margin-left: 50px;
 }
 
 .carousel .item{
-	height: 700px; /*tamanho do slideshow*/
+	height: 680px; /*tamanho do slideshow*/
 }
 
 .item, .carousel-control{
-	height: 700px;
+	height: 680px;
 }
 
 .caption > p{
@@ -698,7 +699,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	}
 
 	.align-welcome{
-		margin-bottom:;
+		padding-top:40px;
 	}
 
 	/* Botão Login */
@@ -1215,8 +1216,43 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     border-top-left-radius: -20px;
     border-top-right-radius: -20px;
     padding: 7.5px 15px;
-    margin: -4px -200px;
+    margin: -4px -15%;
     color: white;
     font-weight:;
+    font-family:;
     float: right;
+}
+
+.softwares{
+    margin: 12px auto;
+}
+
+.softwares > img{
+    width: 30px;
+    margin: 0 15px;
+}
+
+.softwares {
+    
+}
+
+.propaganda > img{
+    margin-top: 100px;
+    height: 680px;
+}
+
+.propaganda > h5{
+    position: relative;
+    font-size: 2.5em;    
+    text-align: center;
+    color: white;
+    margin: 120px 0 -170px 0;
+}
+
+.propaganda > h4{
+    position: relative;
+    font-size: 1.5em;    
+    text-align: center;
+    color: white;
+    margin: 185px 0 -200px 0;
 }
