@@ -1210,17 +1210,13 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	background: #435a6b;
 }
 .timeline {
-    background-color: #00aeef;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: -20px;
-    border-top-right-radius: -20px;
-    padding: 7.5px 15px;
-    margin: -4px -15%;
+    padding: 0 15px;
+    margin: 0px -18%;
     color: white;
     font-weight:;
     font-family:;
     float: right;
+    height: 15px;
 }
 
 .softwares{
