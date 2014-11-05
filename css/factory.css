@@ -31,14 +31,14 @@
 }
 
 .navtypo h1{
-	color: #00aeef;
+	color: white;
 	font-size: 1.5em;
 	font-family: "txt-factory", sans-serif;
 }
 
 .navbar-custom {
-	background-color: #141414;
-	border-color: #030303;
+	background-color: #090E3C;
+	border-color: #090E3C;
 	border-top: 4px solid #00aeef;
 }
 
@@ -57,20 +57,20 @@
 }
 
 .navbar-custom .navbar-nav > li > a {
-	color: #00aeef;
+	color: white;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-	color: #c0c0c0;
+	color: #00aeef;
 	background-color: transparent;
 }
 
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-	color: #c0c0c0;
-	background-color: #030303;
+	color: #00aeef;
+	background-color: #090E3C;
 }
 
 .navbar-custom .navbar-nav > .disabled > a,
@@ -134,7 +134,7 @@
 /* SLIDESHOW */
 
 .carousel{
-	margin: 51px auto 94px 0;
+	margin: 0px auto 94px 0;
 }
 
 .carousel-caption{
@@ -142,11 +142,11 @@
 }
 
 .carousel .item{
-	height: 500px; /*tamanho do slideshow*/
+	height: 700px; /*tamanho do slideshow*/
 }
 
 .item, .carousel-control{
-	height: 500px;
+	height: 700px;
 }
 
 .caption > p{
@@ -1207,4 +1207,16 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 
 .color-1 {
 	background: #435a6b;
+}
+.timeline {
+    background-color: #00aeef;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: -20px;
+    border-top-right-radius: -20px;
+    padding: 7.5px 15px;
+    margin: -4px -200px;
+    color: white;
+    font-weight:;
+    float: right;
 }

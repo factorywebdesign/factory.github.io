@@ -20,7 +20,7 @@
         <link rel="shortcut icon" href="imgs/icon.bmp">
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <![endif]-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="http://code.jquery.com/jquery.min.js"></script>
@@ -39,6 +39,9 @@
                         <a href="index.html" class="navbar-brand navtypo">
                             	<h1>FACTORY</h1>
                         </a>
+                        <a href="" class="timeline">
+                            TIMELINE
+                        </a>
                         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                             	<span class="icon-bar"></span>
                             	<span class="icon-bar"></span>
@@ -48,10 +51,9 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="active navbar-link"><a href="index.html">INÍCIO</a>
                                 </li>
-                                <li>
-                                    	<a href="#" class="scroll-link" data-id="servicos">SERVIÇOS</a>
-                                </li>
                                 <li><a href="#" class="scroll-link" data-id="sobre-nos">SOBRE NÓS</a>
+                                </li>
+                                <li><a href="#" class="scroll-link" data-id="servicos">SERVIÇOS</a>
                                 </li>
                                 <li><a href="faq.html">FAQ</a>
                                 </li>
@@ -68,78 +70,25 @@
             <div id="myCarousel" class="carousel slide">
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-                    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-                    <li data-target="#myCarousel" data-slide-to="3" class=""></li>
-                    <li data-target="#myCarousel" data-slide-to="4" class=""></li>
-                    <li data-target="#myCarousel" data-slide-to="5" class=""></li>
                 </ol>
                 <div class="carousel-inner slideI">
-                    <div class="item active" style="background-image: url('imgs/wallpaper-29799552.png');">
+                    <div class="item active" style="background:#090E3C;">
                         <div class="carousel-caption">
-                            	<h1>Exemplo H1 - Slide 1</h1>
-                            <p>Apenas um texto genérico!!</p>
-                            <p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
-                        </div>
-                    </div>
-                    <div class="item" style="background-image: url('imgs/pattern/host.png');">
-                        <div class="carousel-caption">
-                            <img src="imgs/banners/host.png" alt="" style="position:absolute;top:-460px;left:250px;">
-                        </div>
-                    </div>
-                    <div class="item" style="background-image: url('imgs/wallpaper-2947929.jpg');">
-                        <div class="carousel-caption">
-                            	<h1>Exemplo H1 - Slide 2</h1>
-                            <p>Apenas um texto genérico!!</p>
-                            <p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
-                        </div>
-                    </div>
-                    <div class="item" style="background-image: url('imgs/pattern/lineforms.gif');">
-                        <div class="carousel-caption">
-                            	<h1>Exemplo H1 - Slide 2</h1>
-                            <p>Apenas um texto genérico!!</p>
-                            <p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
-                        </div>
-                    </div>
-                    <div class="item" style="background-image: url('imgs/pattern/jeans_mini.png');">
-                        <div class="carousel-caption row">
-                            <img src="imgs/banners/bolso.png" style="position:absolute;top:-310px;left:50px;" alt="">
-                            	<h1>Factory, construindo sites<br>que cabem em seu bolso!</h1>
-                        </div>
-                    </div>
-                    <div class="item" style="background-image: url('imgs/pattern/ciencia_blue.png');">>
-                        <div class="carousel-caption">
-                            	<h1>Exemplo H1 - Slide 4</h1>
-                            <p>Apenas um texto genérico!!</p>
-                            <p><a href="#" class="btn btn-lg btn-primary" role="button">Botão</a>
+
                         </div>
                     </div>
                 </div>
                 <!-- Controles -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <a class="left" href="#myCarousel" role="button" data-slide="prev">
                     	<span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <a class="right" href="#myCarousel" role="button" data-slide="next">
                     	<span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>
         </header>
 
-        <section>
-            <div class="container-fluid feature">
-                <div class="row align-welcome">
-                    <div class="col-xs-12 col-md-5 orcamento-style">
-                        	<h1>O melhor da <span style="background-color:#141414;color:white;">WEB</span> ao seu alcance.</h1>
-                        	<h2>Faça seu orçamento:</h2>
-                    </div>
-                    <div class="col-xs-12 col-md-2 align-buttons">
-                        <h1 style="display:inline;" href="#modOrc" data-toggle="modal">
-					    	<button class="btn btn-large button-orc">ORÇAMENTO</button>
-					    </h1>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <hr style="padding-bottom:40px;margin-top:-40px;">
         <section id="show-serv">
             <div class="container-fluid feature">
@@ -200,6 +149,21 @@
             </div>
             <div class="row" style="margin-bottom:-6px;">
                 <button type="button" class="btn btn-default scroll-link" data-id="servicos">SAIBA MAIS</button>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid feature">
+                <div class="row align-welcome">
+                    <div class="col-xs-12 col-md-5 orcamento-style">
+                        	<h1>O melhor da <span style="background-color:#141414;color:white;">WEB</span> ao seu alcance.</h1>
+                        	<h2>Faça seu orçamento:</h2>
+                    </div>
+                    <div class="col-xs-12 col-md-2 align-buttons">
+                        <h1 style="display:inline;" href="#modOrc" data-toggle="modal">
+					    	<button class="btn btn-large button-orc">ORÇAMENTO</button>
+					    </h1>
+                    </div>
+                </div>
             </div>
         </section>
         <hr>
