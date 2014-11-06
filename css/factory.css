@@ -1220,12 +1220,12 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .softwares{
-    margin: 12px auto;
+    margin: 400px auto;
 }
 
 .softwares > img{
     width: 30px;
-    margin: 0 15px;
+    margin: 500px 15px 0 15px;
 }
 
 .softwares {
@@ -1233,8 +1233,8 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .propaganda > img{
-    margin-top: 100px;
-    height: 680px;
+    margin-top:245px;
+    margin-left: ;
 }
 
 .propaganda > h5{
@@ -1248,7 +1248,8 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 .propaganda > h4{
     position: relative;
     font-size: 1.5em;    
+    font-family: "txt-caviar", sans-serif;
     text-align: center;
-    color: white;
-    margin: 185px 0 -200px 0;
+    color: #00aeef;
+    margin: 193px 0 -200px 0;
 }
