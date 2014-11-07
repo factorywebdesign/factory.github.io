@@ -699,7 +699,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	}
 
 	.align-welcome{
-		padding-top:40px;
+		padding-top:100px;
 	}
 
 	/* Botão Login */
@@ -1220,12 +1220,12 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .softwares{
-    margin: 400px auto;
+    margin: 0px auto;
 }
 
 .softwares > img{
-    width: 30px;
-    margin: 500px 15px 0 15px;
+    width: 35px;
+    margin: -130px 15px 0 15px;
 }
 
 .softwares {
@@ -1233,8 +1233,9 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .propaganda > img{
-    margin-top:245px;
+    margin-top:300px;
     margin-left: ;
+    height: 500px;
 }
 
 .propaganda > h5{
