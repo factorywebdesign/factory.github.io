@@ -126,7 +126,9 @@ body{
     text-align: center;
 }
 
-
+.panel-interface-rside img{
+    margin: 13px 0 0 42px;
+}
 
 .panel-title, .panel-title a, .panel-title a:hover, .panel-title a:active{
     text-decoration: none;
