@@ -37,8 +37,8 @@
 }
 
 .navbar-custom {
-	background-color: #090E3C;
-	border-color: #090E3C;
+	background-color: #141414;
+	border-color: #141414;
 	border-top: 4px solid #00aeef;
 }
 
@@ -70,7 +70,7 @@
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
 	color: #00aeef;
-	background-color: #090E3C;
+	background-color: #141414;
 }
 
 .navbar-custom .navbar-nav > .disabled > a,
@@ -150,18 +150,16 @@
 	height: 680px;
 }
 
-.caption > p{
-    font-family: "txt-all", sans-serif;
-}
+
 
 .caption-top h1{
 	margin-left: -20px;
 }
 
 .caption h3{
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-weight: 500px;
-    color: inherit;
+    color: black;
 }
 
 .caption h3:hover:before p{
@@ -327,6 +325,12 @@
  
 }
 
+.caption p{
+    font-family: "Verdana", sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+}
+
 .caption{
     width: 200px;
     margin-left:;
@@ -370,9 +374,7 @@
 	text-align: center;
 }
 
-.serv-feat p{
-	text-align: center;
-}
+
 
 .serv-feat img{
 	max-width: 60%;
@@ -383,12 +385,7 @@
 	margin: -20px 0 0 -30%;
 }
 
-.serv-feat li, .serv-feat p{
-	font-family:;
-	font-size: .6em;
-	font-weight: bold;
-	list-style: none;
-}
+
 
 .serv-txt h3{
 	text-align: left;
@@ -750,10 +747,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 		max-width: 50%;
 	}
 
-	.serv-feat p{
-		text-align: center;
-		font-size: .9em;
-	}
+
 
 	.serv-feat li{
 		font-size: .85em;
@@ -911,10 +905,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 		max-width: 50%;
 	}
 
-	.serv-feat p{
-		text-align: center;
-		font-size: .9em;
-	}
+
 
 	.serv-feat li{
 		font-size: .85em;
@@ -1094,8 +1085,8 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	cursor: pointer;
 	position: relative;
 	margin: 0 0 0 3%;
-	width: 162px;
-    height: 162px;
+	width: 100px;
+    height: 100px;
 	overflow: hidden;
 	-webkit-transform: translateZ(0);
 	   -moz-transform: translateZ(0);
@@ -1168,8 +1159,9 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .circle img{
-    margin-top: 40px;
-    opacity: 0;
+    margin-top: 27px;
+    opacity: 1;
+    height: 50px;
 }
 
 .circle:hover img{
@@ -1179,14 +1171,6 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 
 .circle:before img{
     transition: 0.75s;
-}
-
-.circle > h1 {
-    color: white;
-    position: absolute;
-    text-align: center;
-    vertical-align: middle;
-    margin: 18% 0 0 30%;
 }
 
 .circle:hover > h1 {
@@ -1252,4 +1236,46 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     text-align: center;
     color: #00aeef;
     margin: 193px 0 -200px 0;
+}
+
+.staff{
+    margin:20px -15px 0 -15px;
+    background: #00bfff;
+    height: 250px;
+}
+
+.staff > h4{
+    padding-top: 45px;
+    color: white;
+    font-size: .8em;
+}
+
+.staff > p{
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: "Verdana", sans-serif;
+    margin: 35px auto 60px auto;
+    color: white;
+}
+
+.staff > span{
+    font-size: 3em;
+}
+
+.staff-person{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -55px;
+    background: #f2f2f2;
+    border-radius:100%;
+    border: 5px solid white;
+    width:70px;
+    height:70px;
+    opacity: 1;
+}
+
+.staff-pattern{
+    background: url(../imgs/pattern/nuvem.png) repeat-x;
+    margin-top: -35px;
+    height: 89px;
 }
