@@ -143,14 +143,17 @@
 }
 
 .carousel .item{
-	height: 680px; /*tamanho do slideshow*/
+	/*tamanho do slideshow*/
 }
 
 .item, .carousel-control{
-	height: 680px;
+
 }
 
 
+
+.carousel-control{
+}
 
 .caption-top h1{
 	margin-left: -20px;
@@ -514,7 +517,6 @@
 }
 
 .sobre-nos-qualidades{
-	margin: 60px 0 0 0;
 }
 
 /* Contato */
@@ -1239,7 +1241,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .staff{
-    margin:20px -15px 0 -15px;
+    margin:20px 0 0 0;
     background: #00bfff;
     height: 250px;
 }
@@ -1278,4 +1280,18 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     background: url(../imgs/pattern/nuvem.png) repeat-x;
     margin-top: -35px;
     height: 89px;
+}
+#staff-carousel {
+    margin: 0 -15px 0 -15px;
+}
+
+.staff-pn {
+    display: block;
+    position: relative;
+}
+
+
+
+.staff-indicators {
+    background: #00afff;
 }
