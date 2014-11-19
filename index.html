@@ -288,13 +288,13 @@
                 <div class="col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
                 <div class="col-sm-7 col-md-7 col-lg-5">
                     	<h1>CONTATO</h1>
-                    <form class="myfirstform" role="form" novalidate>
+                    <form class="myfirstform" role="form" novalidate method="post" action="jquery/contact-form.php">
                         <div class="form-group">
                             <label class="control-label">Nome</label>
                             <div class="controls">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input type="text" class="form-control" name="name" placeholder="Nome">
+                                    <input type="text" class="form-control" name="n-nome" id="i-nome" placeholder="Nome">
                                 </div>
                             </div>
                         </div>
@@ -303,7 +303,7 @@
                             <div class="controls">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                                    <input type="text" class="form-control" id="i-email" name="n-email" placeholder="Email">
                                 </div>
                             </div>
                         </div>
@@ -313,7 +313,7 @@
                             <div class="controls">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
-                                    <input type="text" class="form-control" id="lname" name="website" placeholder="Assunto">
+                                    <input type="text" class="form-control" id="i-assunto" name="n-assunto" placeholder="Assunto">
                                 </div>
                             </div>
                         </div>
@@ -332,12 +332,12 @@
                             <div class="controls">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                                    <textarea name="msg" class="form-control " rows="4" cols="78" placeholder="Digite sua mensagem aqui..."></textarea>
+                                    <textarea name="n-msg" id="i-msg" class="form-control " rows="4" cols="78" placeholder="Digite sua mensagem aqui..."></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="controls">
-                            <button type="submit" id="mybtn" class="btn button-contact"><strong class="txt-right" >Envie sua mensagem</strong>
+                            <button type="submit" id="mybtn" class="btn button-contact"><strong class="txt-right" >Envie sua mensagem</strong>   
                             </button>
                         </div>
                     </form>
