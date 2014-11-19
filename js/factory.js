@@ -33,19 +33,3 @@ if (typeof console === "undefined") {
         log: function() { }
     };
 }
-// CONTATO
-function Enviar() {
-    var nome = document.getElementById("nomeid");
-    if (nome.value != "") {
-        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso'); 
-    }
-}
-
-function Enviar(d, t){
-   var g = d.createElement(t),
-       s = d.getElementsByTagName(t)[0];
-   g.src = "http://br.foxyform.com/js.php?id=108351&sec_hash=fa0cd8c1000&width=350px";
-   s.parentNode.insertBefore(g, s);
-}(document, "script"));
-</script>
-<!-- Do not change the code! -->
