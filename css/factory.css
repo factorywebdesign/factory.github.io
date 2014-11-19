@@ -1292,6 +1292,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 
 
 
-.staff-indicators {
+.staff-indicators > li{
     background: #00afff;
+    border: #00aeef solid 2px;
 }
