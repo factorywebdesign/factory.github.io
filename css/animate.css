@@ -1067,8 +1067,8 @@ Copyright (c) 2014 Daniel Eden
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -200%, 0);
+            transform: translate3d(0, -200%, 0);
   }
 
   100% {
@@ -1095,6 +1095,7 @@ Copyright (c) 2014 Daniel Eden
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
+                 visibility: visible;
 }
 
 @-webkit-keyframes fadeInDownBig {

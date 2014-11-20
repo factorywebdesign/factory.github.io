@@ -313,7 +313,6 @@
 /* REPOSICIONAMENTO SERVICOS */
 
 #servicos{
-	margin-top:-19px;
 	background-color: #f2f2f2;
 }
 
@@ -1295,4 +1294,8 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 .staff-indicators > li{
     background: #00afff;
     border: #00aeef solid 2px;
+}
+
+#obj{
+    visibility: hidden;
 }
