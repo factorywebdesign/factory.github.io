@@ -1275,13 +1275,17 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     opacity: 1;
 }
 
+.staff-person < h4{
+    color: #00afff;
+}
+
 .staff-pattern{
     background: url(../imgs/pattern/nuvem.png) repeat-x;
     margin-top: -35px;
     height: 89px;
 }
 #staff-carousel {
-    margin: 0 -15px 0 -15px;
+    margin: 0 -30px 0 -30px;
 }
 
 .staff-pn {
@@ -1298,4 +1302,37 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 
 #obj{
     visibility: hidden;
+}
+
+.edit-transition{
+    
+      -webkit-transition: all 5s ease;
+-moz-transition: all 5s ease;
+-ms-transition: all 5s ease;
+-o-transition: all 5s ease;
+transition: all 5s ease;
+}
+.staff-stl {
+    
+}
+
+.staff-stl h3{
+    color: #141414;
+    font-size: 1.3em; 
+    margin: 0 0 20px 0;
+}
+
+.item > h4{
+    color:00afff;
+    
+}
+
+.staff-name {
+    color: #00afff;
+}
+
+    
+.staff-stl > strong{
+    font-size: 4.5em;
+    color: #00afff;
 }
