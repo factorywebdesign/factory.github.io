@@ -16,19 +16,21 @@
         <meta name="description" content="Factory Web Design">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/factory.css">
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.css">
         <link rel="stylesheet" href="css/animations.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/factory.css">
         <link rel="shortcut icon" href="imgs/icon.bmp">
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="http://lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.js"></script>
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="js/factory.js"></script>
     </head>
-
     <body>
         <header>
             <!-- Menu -->
@@ -105,7 +107,7 @@
                                 </div>
                             </div>
                             <div class="caption">
-                                 <a class="scroll-link" data-id="servicos"><h3>WEB DESIGN</h3></a>
+                                 <a class="scroll-link" data-id="servicos"><h3>WEB SITE</h3></a>
                                 <p>Constru&iacute;mos elegantes web sites responsivos, hospedamos e damos manuten&ccedil;&atilde;o em seu site. Com planos que o atendem.</p>
                             </div>
                         </div>
@@ -226,7 +228,7 @@
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active staff-name">
                                      <h4>Ícaro</h4>
-                                    <img class="staff-person" src="imgs/icaro.jpg">
+                                    <img class="staff-person" src="imgs/staff/icaro.jpg">
                                     <div class="staff">
                                          <h4>PROGRAMADOR<br>DESIGNER INTERFACES</h4>
                                         <p>"Integrar o universo lógico, criativo,
@@ -236,7 +238,7 @@
                                 </div>
                                 <div class="item staff-name">
                                      <h4>Stela</h4>
-                                    <img class="staff-person" src="imgs/stela.jpg">
+                                    <img class="staff-person" src="imgs/staff/stela.jpg">
                                     <div class="staff">
                                          <h4>MAKETING<br>SOCIAL MIDIA</h4>
                                         <p>“Aproximar a internet e os clientes, intermediando o relacionamento
@@ -246,7 +248,7 @@
                                 </div>
                                 <div class="item staff-name">
                                      <h4>Bruno</h4>
-                                    <img class="staff-person" src="imgs/bruno.jpg">
+                                    <img class="staff-person" src="imgs/staff/bruno.jpg">
                                     <div class="staff">
                                          <h4>PROGRAMADOR<br>DESIGNER ANIMAÇÃO</h4>
                                         <p>"Integrar o universo lógico, criativo,
@@ -271,7 +273,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
                         <img src="imgs/sbn_preco.png" alt="">
                          <h2>Melhor Preço</h2>
-                        <p>Apenas um texto genério, apenas um texto genério apenas um texto genério apenas um texto genério apenas um texto genério apenas um texto genério apenas um texto genério apenas um texto genério.</p>
+                        <p>Trabalhamos com preços acessíveis em todos os serviços,venha e faça seu orçamento. A combinação perfeita entre preço, prazo e qualidade!</p>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
                         <img src="imgs/sbn_tempo.png" alt="">
@@ -339,15 +341,15 @@
                     <img src="imgs/subindo.png" alt="">
                 </a>
                 <div class="col-xs-0 col-sm-0 col-md-0 col-lg-2"></div>
-                <div class="col-sm-7 col-md-7 col-lg-5">
-                     <h1>CONTATO</h1>
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-5">
+                    <h1>CONTATO</h1>
                     <form class="myfirstform" role="form" novalidate method="post" action="jquery/contact-form.php">
                         <div class="form-group">
                             <label class="control-label">Nome</label>
                             <div class="controls">
                                 <div class="input-group">
-                                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input type="text" class="form-control" name="n-nome" id="i-nome" placeholder="Nome">
+                                     <span class="input-group-addon group-addon-contact"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" class="form-control form-control-contact" name="n-nome" id="i-nome" placeholder="Nome">
                                 </div>
                             </div>
                         </div>
@@ -355,8 +357,8 @@
                             <label class="control-label">Email</label>
                             <div class="controls">
                                 <div class="input-group">
-                                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                    <input type="text" class="form-control" id="i-email" name="n-email" placeholder="Email">
+                                     <span class="input-group-addon group-addon-contact"><i class="glyphicon glyphicon-envelope"></i></span>
+                                    <input type="text" class="form-control form-control-contact" id="i-email" name="n-email" placeholder="Email">
                                 </div>
                             </div>
                         </div>
@@ -364,8 +366,8 @@
                             <label class="control-label">Assunto</label>
                             <div class="controls">
                                 <div class="input-group">
-                                     <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
-                                    <input type="text" class="form-control" id="i-assunto" name="n-assunto" placeholder="Assunto">
+                                     <span class="input-group-addon group-addon-contact"><i class="glyphicon glyphicon-edit"></i></span>
+                                    <input type="text" class="form-control form-control-contact" id="i-assunto" name="n-assunto" placeholder="Assunto">
                                 </div>
                             </div>
                         </div>
@@ -373,8 +375,8 @@
                             <label class="control-label">Mensagem</label>
                             <div class="controls">
                                 <div class="input-group">
-                                     <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-                                    <select name="cate" class="form-control selectpicker show-tick" style="display: none;">
+                                     <span class="input-group-addon group-addon-contact"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="cate" class="form-control form-control-contact selectpicker show-tick" style="display: none;">
                                         <option>Plugin Development</option>
                                 </div>
                             </div>
@@ -383,8 +385,8 @@
                             <label class="control-label">Message</label>
                             <div class="controls">
                                 <div class="input-group">
-                                     <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                                    <textarea name="n-msg" id="i-msg" class="form-control " rows="4" cols="78" placeholder="Digite sua mensagem aqui..."></textarea>
+                                     <span class="input-group-addon group-addon-contact"><i class="glyphicon glyphicon-pencil"></i></span>
+                                    <textarea name="n-msg" id="i-msg" class="form-control form-control-contact" rows="4" cols="78" placeholder="Digite sua mensagem aqui..."></textarea>
                                 </div>
                             </div>
                         </div>
@@ -394,7 +396,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-sm-5 col-md-5 col-lg-3">
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
                     <div class="contact-header">
                         <img src="imgs/contato/pointer.png" alt="" class="contact-pointer">
                         <div>
@@ -423,195 +425,6 @@
                 <div class="col-xs-0 col-sm-0 col-md-0 col-md-2"></div>
             </div>
         </section>
-        <!--
-
-        MODAL
-
-        -->
-
-        <!-- Orçamento Modal -->
-        <section>
-            <div id="modOrc" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content orcamento-modal-body">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                             <h3 id="myModalLabel">ORÇAMENTO</h3>
-                        </div>
-                        <div class="modal-body">
-                            <!-- ORCAMENTO BODY -->
-                            <form role="form">
-                                <div class="form-group">
-                                    <label for="nome">Nome</label>
-                                    <input type="text" class="form-control" id="nome" placeholder="Digite aqui seu nome...">
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Digite aqui seu email...">
-                                </div>
-                                <div class="form-group">
-                                    <label for="tipoempresa">Tipo de negócio</label>
-                                    <input type="text" class="form-control" id="tipoempresa" placeholder="Digite aqui para que tipo de negócio deseja o(s) serviço(s)...">
-                                </div>
-                                 <h4>SERVIÇOS</h4>
-                                <fieldset class="form-group" id="website">
-                                    <!-- WEB SITE -->
-                                    <legend>Deseja criar um <a href="servicos.html#website">Web Site</a>:</legend>
-                                    <input type="radio" name="nWebSite" id="webDesktop">
-                                    <label for="webDesktop">&nbsp;Desktop&nbsp;&nbsp;</label>
-                                    <br>
-                                    <input type="radio" name="nWebSite" id="webRwd" checked="">
-                                    <label for="webRwd">&nbsp;Responsivo (Todos dispositivos)&nbsp;&nbsp;</label>
-                                    <br>
-                                    <input type="radio" name="nWebSite" id="webDesktop">
-                                    <label for="webNone">&nbsp;Nenhum&nbsp;&nbsp;</label>
-                                    <br>
-
-                                    <legend>Você possue conteúdo informativo para o site?</legend>
-                                    <input type="radio" name="nWebInfo" id="webinfoS">
-                                    <label for="webinfoN">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nWebInfo" id="webinfoN" checked="">
-                                    <label for="webinfoN">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="hospedagem">
-                                    <!-- HOSPEDAGEM -->
-                                    <legend>Deseja <a href="servicos.html#hospedagem">hospedar</a> seu site?</legend>
-                                    <input type="radio" name="nHost" id="hostS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nHost" id="hostN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="manutencao">
-                                    <!-- MANUTENÇÃO -->
-                                    <legend>Deseja <a href="servicos.html#manutencao">manutenção</a> em seu site?</legend>
-                                    <input type="radio" name="nMan" id="manS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nMan" id="manN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="identidade">
-                                    <!-- IDENTIDADE-->
-                                    <legend>Deseja criar uma <a href="servicos.html#identidade">Identidade Visual</a>?</legend>
-                                    <input type="radio" name="nIdentS" id="identS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nIdentN" id="identN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="animacoes">
-                                    <!-- ANIMAÇÕES -->
-                                    <legend>Deseja a criação de <a href="servicos.html#animacoes">Animações em 2D</a>?</legend>
-                                    <input type="radio" name="nAnime" id="animeS">
-                                    <label for="idDesktop">&nbsp;Sim&nbsp;&nbsp;</label>
-                                    <input type="radio" name="nAnime" id="animeN" checked="">
-                                    <label for="webRwd">&nbsp;Não</label>
-                                </fieldset>
-                                <fieldset class="form-group" id="comentario">
-                                    <legend>Comentário:</legend>
-                                    <textarea name="nComentario" id="idComent" cols="78" rows="5" placeholder="Digite aqui seu comentário"></textarea>
-                                </fieldset>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <!-- ORCAMENTO FOOTER -->
-                            <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
-                            <button type="submit" name="nEnviar" id="idEnviar" class="btn btn-primary">Enviar Orçamento</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="modTime" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content orcamento-modal-body">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="text-decoration:none;color:red;">×</button>
-                             <h1 class="text-center" style="color:#00aeef;">Timeline Login</h1>
-                        </div>
-                        <div class="modal-body">
-                            <form class="form col-md-12 center-block">
-                                <div class="form-group">
-                                    <input type="text" class="form-control input-lg" placeholder="Login">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control input-lg" placeholder="Senha">
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-default btn-lg btn-block">Acessar</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <div class="col-md-12">
-                                <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div id="responsive" class="modal fade" tabindex="-1" data-width="760" style="display: none;">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                 <h4 class="modal-title">Responsive</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6">
-                         <h4>Some Input</h4>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                         <h4>Some More Input</h4>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                        <p>
-                            <input class="form-control" type="text">
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
         <footer>
             <div class="container-fluid footer-feature">
                 <div class="row">
@@ -677,6 +490,125 @@
                 <br>
             </div>
         </footer>
+        <!--
+
+        MODAL
+
+        -->
+
+        <!-- Orçamento Modal -->
+        <section>
+            <div id="modOrc" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1><strong>ORÇAMENTO</strong></h1>
+                            <div class="stepwizard">
+                                <div class="stepwizard-row setup-panel">
+                                    <div class="stepwizard-step">
+                                        <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+                                        <p>Sobre você</p>
+                                    </div>
+                                    <div class="stepwizard-step">
+                                        <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                                        <p>Web Design</p>
+                                    </div>
+                                    <div class="stepwizard-step">
+                                        <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                                        <p>Hospedagem</p>
+                                    </div>
+                                    <div class="stepwizard-step">
+                                        <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+                                        <p>Identidade Visual</p>
+                                    </div>
+                                    <div class="stepwizard-step">
+                                        <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled">5</a>
+                                        <p>Marketing Digital</p>
+                                    </div>
+                                    <div class="stepwizard-step">
+                                        <a href="#step-6" type="button" class="btn btn-default btn-circle" disabled="disabled">6</a>
+                                        <p>Animações 2D</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <!-- ORCAMENTO BODY -->
+                            <form role="form">
+                                <div class="row setup-content" id="step-1">
+                                    <div class="col-xs-12">
+                                        <div class="col-md-12 orcamento-title">
+                                            <h3>Olá!<br>Antes de tudo, gostaríamos de conhecer um pouco sobre você.</h3>
+                                            <div class="form-group col-xs-12 col-md-6">
+                                                <label class="control-label">Nome</label>
+                                                <div class="controls">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Digite o seu nome..."  />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-xs-12 col-md-6">
+                                                <label class="control-label">Empresa</label>
+                                                <div class="controls">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-users"></i></span>
+                                                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Digite o nome da sua empresa..."  />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-xs-12 col-md-6">
+                                                <label class="control-label">Email</label>
+                                                <div class="controls">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                                        <input type="text" class="form-control" id="i-email" name="n-email" placeholder="Digite o seu email...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-xs-12 col-md-6">
+                                                <label class="control-label">Negócio</label>
+                                                <div class="controls">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-suitcase"></i></span>
+                                                        <input maxlength="100" type="text" required="required" class="form-control" placeholder="Digite o tipo de negócio da sua empresa..."  />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >AVANÇAR&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row setup-content" id="step-2">
+                                    <div class="col-xs-12">
+                                        <div class="col-md-12">
+                                            <h3> Step 2</h3>
+                                            <div class="form-group">
+                                                <label class="control-label">Company Name</label>
+                                                <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">Company Address</label>
+                                                <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address"  />
+                                            </div>
+                                            <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Próximo <i class="fa fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row setup-content" id="step-3">
+                                    <div class="col-xs-12">
+                                        <div class="col-md-12">
+                                            <h3> Step 3</h3>
+                                            <button class="btn btn-success btn-lg pull-right" type="submit" onclick="">Finish!</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <script>
             $(window).scroll(function() {
                 $('.hidden').each(function() {
@@ -689,6 +621,5 @@
                 });
             });
         </script>
-
     </body>
 </html>

@@ -1095,8 +1095,8 @@ Copyright (c) 2014 Daniel Eden
 .fadeInDown {
       -webkit-animation-name: fadeInDown;
               animation-name: fadeInDown;
-                animation-duration: 1.5s;	
-        -webkit-animation-duration: 1.5s;
+                animation-duration: 4s;	
+        -webkit-animation-duration: 4s;
          animation-timing-function: ease;	
  -webkit-animation-timing-function: ease;
 }

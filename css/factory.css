@@ -476,7 +476,7 @@
 	margin-bottom: 50px;
 }
 
-/* ORCAMENTO MODAL STYLE */
+/* ORCAMENTO MODAL STYLE 
 
 .orcamento-modal-body{
 	background-color: #141414;
@@ -500,7 +500,7 @@
 .modal-footer{
 	color: #141414;
 }
-
+*/
 /* SOBRE NÓS */
 
 .sobre-nos{
@@ -601,11 +601,22 @@
 }
 
 .input-group-addon{
-	background-color: #00aeef;
-	border: none;
+}
+
+.group-addon-contact{
+ 	background-color: #00aeef;
+	border: none;   
 }
 
 .form-control{
+
+}
+
+.form-control-orcamento{
+
+}
+
+.form-control-contact{
 	background-color: #00aeef;
 	border: none;
 	border-radius: 0px;
@@ -668,355 +679,35 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 	border:none;
 }
 
+.modal-header{
+    background: #f2f2f2;
+    border-bottom: solid 4px #00aeef;
+}
+
+.modal-header h1{
+    color: #00aeef;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 30px auto;
+    width: 150px;
+    padding: 0 auto;
+}
+
 .panel-default > .panel-heading {
     color: #f2f2f2;
     background-color: #444749;
     border-color: #ddd;
 }
 
+/* ORGANIZAR */
 
-/* Definindo HR */
 
-/*==============================================================
- ===============================================================
- =========================== MEDIA =============================
- ===============================================================
- =============================================================== */
 
-@media (min-width: 1200px) {	/*_LG 	*/
-	.orcamento-style h1{
-		font-size: 3em;
-	}
 
-	.orcamento-style h2{
-		font-size: 2.2em;
-	}
 
-	.orcamento-style h1, .orcamento-style h2{
-		text-align: right;
-	}
 
-	.align-welcome{
-		padding-top:100px;
-	}
 
-	/* Botão Login */
 
-	.align-buttons{
-		padding-top:0px;
-	}
-
-	.align-buttons h1{
-		margin:0 0px;
-		font-size: 1em;
-        text-align: left;
-	}
-
-	.button-orc{
-		font-size: 1.8em;
-        padding: 10px 30px;
-    }
-
-	.timeline-style{
-		padding-top:10px;
-	}
-
-	.timeline-style h2{
-		text-align:left;
-	}
-	/* REPOSICIONAMENTO SERVICOS */
-
-	#servicos{
-		margin-top:-19px;
-	}
-
-	.serv-feat h1{
-		font-size: 5.8em;
-		top: 9px;
-	}
-
-	.serv-feat1 h1{
-		left: 130px;
-	}
-
-	.serv-feat h2{
-		font-size: 1.3em;
-		text-align: center;
-	}
-
-	.serv-feat img{
-		max-width: 50%;
-	}
-
-
-
-	.serv-feat li{
-		font-size: .85em;
-		text-align: center;
-	}
-
-	.serv-txt h3{
-		text-align: left;
-	}
-
-	.serv-exemp h1, .serv-exemp h2{
-		font-size: 1.2em;
-		padding: 10px 30px;
-		margin: 20px -2px;
-	}
-
-	.exemp_legenda{
-		left: 40px;
-		top: 25px;
-	}
-
-	/* SOBRE NÓS */
-
-	.sobre-nos h2{
-		font-size: 1.8em;
-	}
-
-	.sobre-nos-qualidades{
-		margin: 60px 0 0 0;
-	}
-
-	/* Contato */
-
-	.contact-icon{
-		width: 7%;
-	}
-
-	.contact-pointer{
-		width: 20%;
-	}
-
-	.contact h1{
-		font-size: 2em;
-	}
-
-	.contact ul{
-		margin-left: 10%;
-	}
-
-	.contact li{
-		font-size: .9em;
-		margin-bottom: 15px;
-		text-align: left;
-	}
-
-	.button-contact strong{
-		font-size: 1.5em;
-	}
-
-	.footer-hr{
-		border: 0;
-		height: 210px;
-		border-left: 1px solid rgba(97,102,104,0.25);
-	}
-
-	.footer-logo{
-		width: 30%;
-		margin-left: 34%;
-	}
-    
-    .serv-iframe-fix {
-        width: 1138px;
-    }
-}
-
-/*==============================================================
- ===============================================================
- =========================== MEDIA =============================
- ===============================================================
- =============================================================== */
-
-@media (min-width: 992px) {		/*_MD 	*/
-
-	.orcamento-style h1{
-		font-size: 2em;
-	}
-
-	.orcamento-style h2{
-		font-size: 1.5em;
-	}
-
-	.orcamento-style h1, .orcamento-style h2{
-		text-align: right;
-	}
-
-	.align-welcome{
-		margin-top:-50px;
-	}
-
-	/* Botão Login */
-
-	.align-buttons{
-		padding-top:0px;
-	}
-
-	.align-buttons h1{
-		margin:0 0px;
-		font-size: 1em;
-        text-align: left;
-	}
-
-	.button-orc{
-		font-size: 1.8em;
-        padding: 10px 30px;
-        text-align: left;
-	}
-
-	.timeline-style{
-		padding-top:30px;
-	}
-
-	.timeline-style h2{
-		text-align:left;
-	}
-	/* REPOSICIONAMENTO SERVICOS */
-
-	.caption a > h2{
-		font-size: 1em;
-        color: #141414;
-	}
-
-	#servicos{
-		margin-top:-19px;
-	}
-
-	#servicos h1{
-		font-size: 2.2em;
-	}
-
-	.serv-feat h1{
-		font-size: 5.8em;
-		top: 9px;
-	}
-
-	.serv-feat1 h1{
-		left: 130px;
-	}
-
-	.serv-feat h2{
-		font-size: 1.3em;
-		text-align: center;
-	}
-
-	.serv-feat img{
-		max-width: 50%;
-	}
-
-
-
-	.serv-feat li{
-		font-size: .85em;
-		text-align: center;
-	}
-
-	.serv-txt h3{
-		text-align: left;
-	}
-
-	.serv-exemp h1, .serv-exemp h2{
-		font-size: 1.2em;
-		padding: 10px 30px;
-		margin: 20px -2px;
-	}
-
-	.exemp_legenda{
-		left: 40px;
-		top: 25px;
-	}
-
-	/* SOBRE NÓS */
-
-	.sobre-nos h1{
-		font-size: 2.2em;
-	}
-
-	.sobre-nos h2{
-		font-size: 1.8em;
-	}
-
-	.sobre-nos-qualidades{
-		margin: 60px 0 0 0;
-	}
-
-	/* Contato */
-
-	.contact-icon{
-		width: 7%;
-	}
-
-	.contact-pointer{
-		width: 20%;
-	}
-
-	.contact h1{
-		font-size: 2em;
-	}
-
-	.contact ul{
-		margin-left: 10%;
-	}
-
-	.contact li{
-		font-size: .9em;
-		margin-bottom: 15px;
-		text-align: left;
-	}
-
-	.button-contact strong{
-		font-size: 1.5em;
-	}
-
-	.footer-hr{
-		border: 0;
-		height: 210px;
-		border-left: 1px solid rgba(97,102,104,0.25);
-	}
-
-	.footer-logo{
-		width: 30%;
-		margin-left: 34%;
-	}
-}
-
-/*==============================================================
- ===============================================================
- =========================== MEDIA =============================
- ===============================================================
- =============================================================== */
-
-@media (min-width: 768px){		/*_SM 	*/
-
-}
-@media (min-width: 400px){		/*_XS >	*/
-/* Tamanho das letras da apresentação de serviços e configuração das referências/footer */
-}
-
-@media (max-width: 767) {
-	.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
-		color: #00aeef;
-	}
-	.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
-	.navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
-		color: #c0c0c0;
-		background-color: transparent;
-	}
-	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
-	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
-	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
-		color: #c0c0c0;
-		background-color: #030303;
-	}
-	.navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
-	.navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-	.navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-		color: #cccccc;
-		background-color: transparent;
-	}
-}
 
 .panel-title a:hover, .panel-title a:active,
 .panel-title a:hover, .panel-title a:active{
@@ -1293,8 +984,6 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     position: relative;
 }
 
-
-
 .staff-indicators > li{
     background: #00afff;
     border: #00aeef solid 2px;
@@ -1335,4 +1024,451 @@ transition: all 5s ease;
 .staff-stl > strong{
     font-size: 4.5em;
     color: #00afff;
+}
+
+.stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.nextBtn {
+    margin-top: 20px;
+    border: none;
+    border-radius: 0px;
+    background: #00aeef;
+    font-size: 1em;
+}
+
+.orcamento-title > h3{
+    padding-bottom: 10px;
+}
+
+.border-blue {
+    border-bottom: solid 4px #00aeef;
+}
+
+.modal-body {
+
+}
+
+.stepwizard-row > h5{
+    display: inline;
+    padding-top: 40px;
+    font-size: 0.7em;
+}
+
+.stepwizard-step > p{
+    font-size: .6em;
+}
+
+
+
+
+
+
+
+
+
+/* Definindo HR */
+
+/*==============================================================
+ ===============================================================
+ =========================== MEDIA =============================
+ ===============================================================
+ =============================================================== */
+
+@media (min-width: 1200px) {	/*_LG 	*/
+	.orcamento-style h1{
+		font-size: 3em;
+	}
+
+	.orcamento-style h2{
+		font-size: 2.2em;
+	}
+
+	.orcamento-style h1, .orcamento-style h2{
+		text-align: right;
+	}
+
+	.align-welcome{
+		padding-top:100px;
+	}
+
+	/* Botão Login */
+
+	.align-buttons{
+		padding-top:0px;
+	}
+
+	.align-buttons h1{
+		margin:0 0px;
+		font-size: 1em;
+        text-align: left;
+	}
+
+	.button-orc{
+		font-size: 1.8em;
+        padding: 10px 30px;
+    }
+
+	.timeline-style{
+		padding-top:10px;
+	}
+
+	.timeline-style h2{
+		text-align:left;
+	}
+	/* REPOSICIONAMENTO SERVICOS */
+
+	#servicos{
+		margin-top:-19px;
+	}
+
+	.serv-feat h1{
+		font-size: 5.8em;
+		top: 9px;
+	}
+
+	.serv-feat1 h1{
+		left: 130px;
+	}
+
+	.serv-feat h2{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	.serv-feat img{
+		max-width: 50%;
+	}
+
+
+
+	.serv-feat li{
+		font-size: .85em;
+		text-align: center;
+	}
+
+	.serv-txt h3{
+		text-align: left;
+	}
+
+	.serv-exemp h1, .serv-exemp h2{
+		font-size: 1.2em;
+		padding: 10px 30px;
+		margin: 20px -2px;
+	}
+
+	.exemp_legenda{
+		left: 40px;
+		top: 25px;
+	}
+
+	/* SOBRE NÓS */
+
+	.sobre-nos h2{
+		font-size: 1.8em;
+	}
+
+	.sobre-nos-qualidades{
+		margin: 60px 0 0 0;
+	}
+
+	/* Contato */
+
+	.contact-icon{
+		width: 7%;
+	}
+
+	.contact-pointer{
+		width: 20%;
+	}
+
+	.contact h1{
+		font-size: 2em;
+	}
+
+	.contact ul{
+		margin-left: 10%;
+	}
+
+	.contact li{
+		font-size: .9em;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	.button-contact strong{
+		font-size: 1.5em;
+	}
+
+	.footer-hr{
+		border: 0;
+		height: 210px;
+		border-left: 1px solid rgba(97,102,104,0.25);
+	}
+
+	.footer-logo{
+		width: 30%;
+		margin-left: 34%;
+	}
+    
+    .serv-iframe-fix {
+        width: 1138px;
+    }
+        
+    .modal-dialog {
+        position: absolute;
+        top: 50% !important;
+        transform: translate(0, -50%) !important;
+        -ms-transform: translate(0, -50%) !important;
+        -webkit-transform: translate(0, -50%) !important;
+        margin: auto 26.35%;
+    }
+    
+    .stepwizard-step > p{
+        font-size: .9em;
+    }
+}
+
+/*==============================================================
+ ===============================================================
+ =========================== MEDIA =============================
+ ===============================================================
+ =============================================================== */
+
+@media (min-width: 992px) {		/*_MD 	*/
+
+	.orcamento-style h1{
+		font-size: 2em;
+	}
+
+	.orcamento-style h2{
+		font-size: 1.5em;
+	}
+
+	.orcamento-style h1, .orcamento-style h2{
+		text-align: right;
+	}
+
+	.align-welcome{
+		margin-top:-50px;
+	}
+
+	/* Botão Login */
+
+	.align-buttons{
+		padding-top:0px;
+	}
+
+	.align-buttons h1{
+		margin:0 0px;
+		font-size: 1em;
+        text-align: left;
+	}
+
+	.button-orc{
+		font-size: 1.8em;
+        padding: 10px 30px;
+        text-align: left;
+	}
+
+	.timeline-style{
+		padding-top:30px;
+	}
+
+	.timeline-style h2{
+		text-align:left;
+	}
+	/* REPOSICIONAMENTO SERVICOS */
+
+	.caption a > h2{
+		font-size: 1em;
+        color: #141414;
+	}
+
+	#servicos{
+		margin-top:-19px;
+	}
+
+	#servicos h1{
+		font-size: 2.2em;
+	}
+
+	.serv-feat h1{
+		font-size: 5.8em;
+		top: 9px;
+	}
+
+	.serv-feat1 h1{
+		left: 130px;
+	}
+
+	.serv-feat h2{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	.serv-feat img{
+		max-width: 50%;
+	}
+
+
+
+	.serv-feat li{
+		font-size: .85em;
+		text-align: center;
+	}
+
+	.serv-txt h3{
+		text-align: left;
+	}
+
+	.serv-exemp h1, .serv-exemp h2{
+		font-size: 1.2em;
+		padding: 10px 30px;
+		margin: 20px -2px;
+	}
+
+	.exemp_legenda{
+		left: 40px;
+		top: 25px;
+	}
+
+	/* SOBRE NÓS */
+
+	.sobre-nos h1{
+		font-size: 2.2em;
+	}
+
+	.sobre-nos h2{
+		font-size: 1.8em;
+	}
+
+	.sobre-nos-qualidades{
+		margin: 60px 0 0 0;
+	}
+
+	/* Contato */
+
+	.contact-icon{
+		width: 7%;
+	}
+
+	.contact-pointer{
+		width: 20%;
+	}
+
+	.contact h1{
+		font-size: 2em;
+	}
+
+	.contact ul{
+		margin-left: 10%;
+	}
+
+	.contact li{
+		font-size: .9em;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	.button-contact strong{
+		font-size: 1.5em;
+	}
+
+	.footer-hr{
+		border: 0;
+		height: 210px;
+		border-left: 1px solid rgba(97,102,104,0.25);
+	}
+
+	.footer-logo{
+		width: 30%;
+		margin-left: 34%;
+	}
+        
+    .stepwizard-step > p{
+        font-size: .8em;
+    }
+}
+
+/*==============================================================
+ ===============================================================
+ =========================== MEDIA =============================
+ ===============================================================
+ =============================================================== */
+
+@media (min-width: 768px){		/*_SM 	*/
+    .stepwizard-step > p{
+        font-size: .7em;
+    }
+
+}
+@media (min-width: 400px){		/*_XS >	*/
+/* Tamanho das letras da apresentação de serviços e configuração das referências/footer */
+}
+
+@media (max-width: 767) {
+	.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+		color: #00aeef;
+	}
+	.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #c0c0c0;
+		background-color: transparent;
+	}
+	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #c0c0c0;
+		background-color: #030303;
+	}
+	.navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+	.navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+	.navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+		color: #cccccc;
+		background-color: transparent;
+	}
 }
