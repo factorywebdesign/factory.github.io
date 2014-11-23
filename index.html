@@ -15,21 +15,27 @@
         <title>Factory Web Design</title>
         <meta name="description" content="Factory Web Design">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="imgs/icon.bmp">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.css">
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/factory.css">
-        <link rel="shortcut icon" href="imgs/icon.bmp">
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
         <script src="http://lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.js"></script>
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="js/factory.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip({
+                    placement : 'top'
+                });
+            });
+        </script>
     </head>
     <body>
         <header>
@@ -156,7 +162,7 @@
                             </div>
                         </div>
                         <div class="caption">
-                             <a class="scroll-link" data-id="servicos"><h3>ECOMMERCE</h3></a>
+                             <a class="scroll-link" data-id="servicos"><h3>E-COMMERCE</h3></a>
                             <p>Constru&iacute;mos elegantes web sites responsivos, hospedamos e damos manuten&ccedil;&atilde;o em seu site. Com planos que o atendem.</p>
                         </div>
                     </div>
@@ -543,8 +549,8 @@
                                                 <label class="control-label">Nome</label>
                                                 <div class="controls">
                                                     <div class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Digite o seu nome..."  />
+                                                        <span class="input-group-addon no-border"><i class="fa fa-user"></i></span>
+                                                        <input  maxlength="100" type="text" required="required" class="form-control no-border" placeholder="Digite o seu nome..."  />
                                                     </div>
                                                 </div>
                                             </div>
@@ -552,8 +558,8 @@
                                                 <label class="control-label">Empresa</label>
                                                 <div class="controls">
                                                     <div class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-users"></i></span>
-                                                        <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Digite o nome da sua empresa..."  />
+                                                        <span class="input-group-addon no-border"><i class="fa fa-users"></i></span>
+                                                        <input  maxlength="100" type="text" required="required" class="form-control no-border" placeholder="Digite o nome da sua empresa..."  />
                                                     </div>
                                                 </div>
                                             </div>
@@ -561,8 +567,8 @@
                                                 <label class="control-label">Email</label>
                                                 <div class="controls">
                                                     <div class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                                        <input type="text" class="form-control" id="i-email" name="n-email" placeholder="Digite o seu email...">
+                                                        <span class="input-group-addon no-border"><i class="fa fa-envelope"></i></span>
+                                                        <input type="text" class="form-control no-border" id="i-email" name="n-email" placeholder="Digite o seu email...">
                                                     </div>
                                                 </div>
                                             </div>
@@ -570,8 +576,8 @@
                                                 <label class="control-label">Negócio</label>
                                                 <div class="controls">
                                                     <div class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-suitcase"></i></span>
-                                                        <input maxlength="100" type="text" required="required" class="form-control" placeholder="Digite o tipo de negócio da sua empresa..."  />
+                                                        <span class="input-group-addon no-border"><i class="fa fa-suitcase"></i></span>
+                                                        <input maxlength="100" type="text" required="required" class="form-control no-border" placeholder="Digite o tipo de negócio da sua empresa..."  />
                                                     </div>
                                                 </div>
                                             </div>
@@ -582,16 +588,43 @@
                                 <div class="row setup-content" id="step-2">
                                     <div class="col-xs-12">
                                         <div class="col-md-12">
-                                            <h3> Step 2</h3>
-                                            <div class="form-group">
-                                                <label class="control-label">Company Name</label>
-                                                <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                                            <h3 style="text-align:center;font-size:1.1em;">WEB DESIGN</h3>
+                                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6 webdesign-form">
+                                                <label class="control-label" style="padding-left:8px;">Web Site 
+                                                    <i class="fa fa-eye webdesign-form-info" data-toggle="tooltip"
+                                                    data-original-title="Web Sites responsivos, que se ajustam ao tamanho de qualquer dispositivo (PC, celular, tablet, etc)."> 
+                                                    </i>
+                                                </label>
+                                                <form>
+                                                    <div class="onoffswitch">
+                                                        <input type="checkbox" name="boolwebsite" class="onoffswitch-checkbox" id="boolwebsite" checked>
+                                                        <label class="onoffswitch-label" for="boolwebsite">
+                                                            <span class="onoffswitch-inner"></span>
+                                                            <span class="onoffswitch-switch"></span>
+                                                        </label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6 webdesign-form">
+                                                <label class="control-label">E-commerce 
+                                                    <i class="fa fa-eye webdesign-form-info" data-toggle="tooltip"
+                                                    data-original-title="E-commerce é uma loja virtual que tem como um dos seus maiores diferenciais a possibilidade de atender clientes em qualquer lugar do país ou mundo."> 
+                                                    </i>
+                                                </label>
+                                                <form>
+                                                    <div class="onoffswitch">
+                                                        <input type="checkbox" name="boolecommerce" class="onoffswitch-checkbox" id="boolecommerce">
+                                                        <label class="onoffswitch-label" for="boolecommerce">
+                                                            <span class="onoffswitch-inner"></span>
+                                                            <span class="onoffswitch-switch"></span>
+                                                        </label>
+                                                    </div>
+                                                </form>
                                             </div>
                                             <div class="form-group">
-                                                <label class="control-label">Company Address</label>
-                                                <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address"  />
+
                                             </div>
-                                            <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Próximo <i class="fa fa-arrow-right"></i></button>
+                                            <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >AVANÇAR&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
