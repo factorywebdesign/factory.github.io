@@ -696,7 +696,6 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 .panel-default > .panel-heading {
     color: #f2f2f2;
     background-color: #444749;
-    border-color: #ddd;
 }
 
 /* ORGANIZAR */
@@ -1160,8 +1159,54 @@ transition: all 5s ease;
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
 }
+	
+.price {
+  font-size: 2.5em;
+}
+ 
+.price-cents {
+  vertical-align: super;
+  font-size: 35%;
+}
+ 
+.price-month {
+  font-size:29%;
+  font-style: italic;
+}
 
+.list-group {
+    background: white;
+}
 
+.list-group-item-factory{
+    background: #00aeef;
+    color: white;
+}
+
+.panel-default > .panel-heading > h3, .panel-danger > .panel-heading >h3{
+    margin: 0px auto;
+    font-size: 1.5em;
+}
+
+.panel-danger > .panel-heading{
+    background: #00aeef;
+    color: white;
+}
+
+.panel-host {
+    border: solid 4px #f2f2f2;
+    border-radius: 0px;
+    background:#f2f2f2;
+    -webkit-transition-property : scale; 
+    -webkit-transition-duration : 0.2s; 
+    -webkit-transition-timing-function : ease-in-out; 
+    -moz-transition : all 0.2s ease-in-out;  
+}
+ 
+.panel-host:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
 
 
 
@@ -1550,3 +1595,13 @@ transition: all 5s ease;
     color: #00aeef;
     transition: 1s;
 }
+
+.panel-primary {
+    text-align: center;
+}
+
+.panel-primary:hover {
+
+}
+
+
