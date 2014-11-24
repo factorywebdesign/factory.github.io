@@ -715,6 +715,11 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     color: #00aeef;
 }
 
+.panel-default > .panel-heading{
+    color: #f2f2f2;
+    background-color: #444749;
+}
+
 .serv-iframe-pos {
     margin: -17px 0 -20px -15px;
 }
@@ -1185,9 +1190,15 @@ transition: all 5s ease;
     color: white;
 }
 
-.panel-default > .panel-heading > h3, .panel-danger > .panel-heading >h3{
+.panel-warning > .panel-heading > h3, .panel-danger > .panel-heading >h3{
     margin: 0px auto;
     font-size: 1.5em;
+}
+
+.panel-warning > .panel-heading{
+    background: #f2f2f2;  
+    color: #00afff;
+    border-bottom: solid 1px #dddddd;
 }
 
 .panel-danger > .panel-heading{
@@ -1209,8 +1220,6 @@ transition: all 5s ease;
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
 }
-
-
 
 
 
@@ -1589,11 +1598,11 @@ transition: all 5s ease;
     margin: 0 auto;
 }
 
-.webdesign-form-info {
+.form-info {
     color: #c3c3c3;
 }
 
-.webdesign-form-info:hover {
+.form-info:hover {
     color: #00aeef;
     transition: 1s;
 }
@@ -1607,3 +1616,20 @@ transition: all 5s ease;
 }
 
 
+
+.host-none{
+    text-align: center;
+}
+
+.btn-warning{
+    background: #f2f2f2;
+    border-radius: 0px;
+    box-shadow: none;
+    border: solid 2px #f2f2f2;
+    color: gray;
+}
+
+.btn-warning:hover{
+    background: lightgray;
+    border: solid 2px lightgray;
+}
