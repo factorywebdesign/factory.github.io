@@ -1079,7 +1079,7 @@ transition: all 5s ease;
   border-radius: 15px;
 }
 .nextBtn {
-    margin-top: 20px;
+    margin: 20px 5 10px 5;
     border: none;
     border-radius: 0px;
     background: #00aeef;
@@ -1633,4 +1633,12 @@ transition: all 5s ease;
 .btn-warning:hover{
     background: lightgray;
     border: solid 2px lightgray;
+}
+
+#formwebsite{
+    display:block;
+}
+
+#formecommerce {
+    display: none;
 }
