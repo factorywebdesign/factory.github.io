@@ -1636,18 +1636,9 @@ transition: all 5s ease;
 }
 
 #formwebsite, #formecommerce{
-    display: block;
-    margin: 30px auto;
-    border: 1px solid #f8f8f8;
-    width: 300px;
-    transition: 1s;
 }
 
 #formwebsite, #formecommerce {
-    background: white;
-    border: 1px solid #f2f2f2;
-    text-align: left;
-    color: #939393;
 }
 
 #formecommerce {
@@ -1661,11 +1652,48 @@ transition: all 5s ease;
 
 .formwebcheckbox {
     display: block;
-    height: 100px;
     border-top: 1px solid #d7d7d7;
     border-bottom: 1px solid #d7d7d7;
 }
 
+.formwebcheckbox > li,
+.formwebcheckbox > li > i{
+    display: inline-block;
+}
+
+.formwebcheckbox > li{
+    display: block;
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 5%;
+    color: 141414;
+}
+
+.formwebcheckbox > li > i{
+    margin-right: 5px;
+}
+
+.formwebcheckbox > li{
+    padding: 2px 0;
+}
+
+.formwebcheckbox > li > i{
+    padding: 0 2px;
+}
+
 .formwebcheckbox input{
     margin: 9px 0;
+}
+
+.form-webdesign {
+    height: 350px;
+}
+
+.form-webdesign >  h3{
+    text-align:center;
+    font-size:1.1em;
+}
+
+.formwebcheckbox-line {
+    background: #d7d7d7;
 }

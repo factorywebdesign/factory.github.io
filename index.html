@@ -531,13 +531,17 @@
                                         <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled">5</a>
                                         <p>Animações 2D</p>
                                     </div>
+                                    <div class="stepwizard-step">
+                                        <a href="#step-6" type="button" class="btn btn-default btn-circle" disabled="disabled">6</a>
+                                        <p>Final</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="modal-body">
                             <!-- ORCAMENTO BODY -->
                             <form role="form">
-                                <div class="row setup-content" id="step-2">
+                                <div class="row setup-content" id="step-1">
                                     <div class="col-xs-12">
                                         <div class="col-md-12 orcamento-title">
                                             <h3>Olá!<br>Antes de tudo, gostaríamos de conhecer um pouco sobre você.</h3>
@@ -581,10 +585,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row setup-content" id="step-1">
+                                <div class="row setup-content" id="step-2">
                                     <div class="col-xs-12">
-                                        <div class="col-md-12">
-                                            <h3 style="text-align:center;font-size:1.1em;">WEB DESIGN</h3>
+                                        <div class="col-md-12 form-webdesign">
+                                            <h3>WEB DESIGN</h3>
                                             <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6 webdesign-form">
                                                 <label class="control-label" style="padding-left:8px;">Web Site 
                                                     <i class="fa fa-eye form-info" data-toggle="tooltip"
@@ -599,33 +603,41 @@
                                                             <span class="onoffswitch-switch"></span>
                                                         </label>
                                                     </div>
-                                                    <div id="formwebsite">
-                                                        <label for="tiposite">&nbsp;&nbsp;Tipo de Website: </label>
-                                                        <select name="tiposite" id="tiposite" class="formwebdesign">
-                                                            <optgroup>
-                                                                <option value="Responsivo" selected>Responsivo</option>
-                                                                <option value="Desktop">Desktop</option>
-                                                            </optgroup>
-                                                        </select>
-                                                        <i class="fa fa-eye form-info" data-toggle="tooltip"
-                                                        data-original-title="Responsivo: site flexível que se adapta a todos os dispositivos. Desktop: site é estático."> 
-                                                        </i><br>
-                                                        <div class="formwebcheckbox">
+                                                    <ul id="formwebsite" class="formwebcheckbox">
+                                                        <li>
+                                                            <label for="tiposite">&nbsp;&nbsp;Tipo de Website: </label>
+                                                            <select name="tiposite" id="tiposite" class="formwebdesign">
+                                                                <optgroup>
+                                                                    <option value="Responsivo" selected>Responsivo</option>
+                                                                    <option value="Desktop">Desktop</option>
+                                                                </optgroup>
+                                                            </select>
+                                                            <i class="fa fa-eye form-info" data-toggle="tooltip"
+                                                            data-original-title="Responsivo: site flexível que se adapta a todos os dispositivos. Desktop: site é estático."> 
+                                                            </i>
+                                                        </li>
+                                                        <li>
                                                             <i class="fa fa-eye form-info" data-toggle="tooltip"
                                                             data-original-title="Serviço que oferece suporte ao código, atualização de tecnologias e elementos de design."> 
                                                             </i>
-                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Suporte<br>
+                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Suporte
+                                                        </li>
+                                                        <li>
                                                             <i class="fa fa-eye form-info" data-toggle="tooltip"
                                                             data-original-title="Criação dos textos para o site com técnicas do marketing, de forma que consiga atingir seus clientes."> 
                                                             </i>
-                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Conteúdo Informativo <br>
+                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Conteúdo Informativo
+                                                        </li>
+                                                        <li>
                                                             <i class="fa fa-eye form-info" data-toggle="tooltip"
                                                             data-original-title="Criação de logotipo, email marketing, etc, que representem fielmente a empresa e seus serviços."> 
                                                             </i>
-                                                            <input type="checkbox" name="identidade" id="identidade"> Identidade Visual <br>
-                                                        </div>
-                                                        <span style="text-align:center;">Escolha a sua cor favorita:</span> <input type="color" name="favcor" id="favcor">
-                                                    </div>
+                                                            <input type="checkbox" name="identidade" id="identidade"> Identidade Visual
+                                                        </li>
+                                                        <li>
+                                                            <span style="text-align:center;">Escolha a sua cor favorita:</span> <input type="color" name="favcor" id="favcor">
+                                                        </li>
+                                                    </ul>
                                                 </form>
                                             </div>
                                             <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6 webdesign-form">
@@ -642,35 +654,41 @@
                                                             <span class="onoffswitch-switch"></span>
                                                         </label>
                                                     </div>
-                                                    <div id="formecommerce">
-                                                        <label for="tiposite">Tipo de Website:                                                            
-                                                        </label>
-                                                        <select name="tipoecommerce" id="tipoecommerce" class="formwebdesign">
-                                                            <optgroup>
-                                                                <option value="Responsivo" selected>Responsivo</option>
-                                                                <option value="Desktop">Desktop</option>
-                                                            </optgroup>
-                                                        </select>                                                         
-                                                        <i class="fa fa-eye form-info" data-toggle="tooltip"
-                                                        data-original-title="Responsivo: site flexível que se adapta a todos os dispositivos. Desktop: site é estático."> 
-                                                        </i><br>
-                                                        <div class="formwebcheckbox">
+                                                    <ul id="formecommerce" class="formwebcheckbox">
+                                                        <li>
+                                                            <label for="tiposite">&nbsp;&nbsp;Tipo de Website: </label>
+                                                            <select name="tiposite" id="tiposite" class="formwebdesign">
+                                                                <optgroup>
+                                                                    <option value="Responsivo" selected>Responsivo</option>
+                                                                    <option value="Desktop">Desktop</option>
+                                                                </optgroup>
+                                                            </select>
+                                                            <i class="fa fa-eye form-info" data-toggle="tooltip"
+                                                            data-original-title="Responsivo: site flexível que se adapta a todos os dispositivos. Desktop: site é estático."> 
+                                                            </i>
+                                                        </li>
+                                                        <li>
                                                             <i class="fa fa-eye form-info" data-toggle="tooltip"
                                                             data-original-title="Serviço que oferece suporte ao código, atualização de tecnologias e elementos de design."> 
                                                             </i>
-                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Suporte<br>
+                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Suporte
+                                                        </li>
+                                                        <li>
                                                             <i class="fa fa-eye form-info" data-toggle="tooltip"
                                                             data-original-title="Criação dos textos para o site com técnicas do marketing, de forma que consiga atingir seus clientes."> 
                                                             </i>
-                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Conteúdo Informativo <br>
+                                                            <input type="checkbox" name="txtinfo" id="txtinfo"> Conteúdo Informativo
+                                                        </li>
+                                                        <li>
                                                             <i class="fa fa-eye form-info" data-toggle="tooltip"
                                                             data-original-title="Criação de logotipo, email marketing, etc, que representem fielmente a empresa e seus serviços."> 
                                                             </i>
-                                                            <input type="checkbox" name="identidade" id="identidade"> Identidade Visual <br>
-                                                        </div>
-                                                        <span style="text-align:center;">Escolha a sua cor favorita:</span> <input type="color" name="favcor" id="favcor">
-                                                        <br>
-                                                    </div>
+                                                            <input type="checkbox" name="identidade" id="identidade"> Identidade Visual
+                                                        </li>
+                                                        <li>
+                                                            <span style="text-align:center;">Escolha a sua cor favorita:</span> <input type="color" name="favcor" id="favcor">
+                                                        </li>
+                                                    </ul>
                                                 </form>
                                             </div>
                                             <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >AVANÇAR&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
